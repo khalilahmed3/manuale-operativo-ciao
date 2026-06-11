@@ -1,0 +1,919 @@
+[
+  {
+    "titolo": "Sistema di cassa e applicativi correlati",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "Ciao! Optical",
+    "contenuto": "Ciao! Optical è il nuovo sistema di cassa per i negozi del Retail Italia in sostituzione del gestionale Acuitas. Tale sistema presenta alcune caratteristiche peculiari.\n\nA differenza di Acuitas è utilizzabile sia su computer (con sistema operativo Linux) che su IPad in versione applicazione.\n\nCiao! Optical è strutturato in due sezioni principali distinguibili anche attraverso una differente interfaccia utente:\n\nCustomer Order, la sezione del gestionale utilizzabile per la presa ordine, l’inserimento delle anagrafiche clienti e le prescrizioni oculistiche.\n\nAccedendo a Customer Order si visualizzano tre pagine:\n\nRicerca Cliente, la prima pagina proposta dal sistema utilizzabile per ricercare un cliente esistente o per procedere alla creazione di una nuova anagrafica\n\nVendita Rapida, da dove è possibile effettuare una vendita veloce senza registrare l’anagrafica del cliente\n\nElenco Ordini, pagina che contiene tre differenti liste di raccolta degli ordini attivi registrati sul negozio:\n\nAttivo: elenco di tutti gli ordini creati dal negozio per i quali non è stata presa una caparra e che non sono ancora stati consegnati al cliente. Questi ordini rimangono salvati per tre giorni in questa lista. Questa lista è utile per salvare ordini creati ma non ancora confermati dal cliente e che potrebbero evolversi entro i prossimi tre giorni in ordini per cui dover prendere una caparra o procedere direttamente alla vendita.\n\nArchivio: elenco di tutti gli ordini che passati i 3 giorni si spostano dall’ elenco attivo e rimangono in questa lista per i successivi 27 giorni.\n\nCaparra: elenco di tutti gli ordini per i quali è stata presa una caparra e che devono essere consegnati ai clienti.\n\nGli ordini che figurano in stato “Pronto” sono ordini per cui si è arrivati allo step di completamento dell’ordine e sono pronti per essere pagati o per ricevere caparra. Gli ordini “In corso” sono ordini per cui il flusso di vendita è stato interrotto e che sono stati salvati nella lista attivo.\n\nXStore, la sezione del gestionale dedicata ai pagamenti delle transazioni e alla gestione della cassa.\n\nAttraverso questa sezione sono gestiti i processi di apertura e chiusura delle postazioni di cassa e del negozio, la stampa e ristampa di scontrini e fatture e la conclusione delle vendite attraverso tutti i metodi di pagamento attivi.\n\nLe credenziali d’accesso per il sistema corrispondono alle credenziali personali attualmente utilizzate per MIM",
+    "immagini": [
+      "data/images/image6.png",
+      "data/images/image7.png"
+    ]
+  },
+  {
+    "titolo": "Tool kit",
+    "contenuto": "Il Tool Kit è uno strumento che raccoglie i link necessari per accedere a tutte le piattaforme e gli applicativi utili per le diverse attività svolte in negozio.\n\nPer accedere ad uno di essi è necessario cliccare sull’icona di riferimento. Per visionare tutte le icone disponibili è possibile passare alla seconda e alla terza pagina del Tool Kit cliccando sul secondo/terzo pallino nero come mostrato nelle immagini sottostanti.\n\nQuesto strumento raccoglie tutte le icone attualmente presenti sul desktop dei computer e le pagine salvate come preferiti all’interno della pagina iniziale del browser Internet.\n\nOltre gli applicativi già di conoscenza del negozio, ne sono stati aggiunti due nuovi:\n\nLook Up Tool, strumento dedicato alla consultazione dello storico vendite di tre anni presente su Acuitas. Su Ciao Optical! infatti sono state importate tutte le anagrafiche cliente e i dati delle prescrizioni. Le vendite invece sono disponibili su questo strumento.\n\nListini&Sconti, archivio di tutti i listini (offerta commerciale occhiale completo, assicurazioni e abbonamenti) disponibili in formato PDF e consultabili direttamente da web senza doverli scaricare in locale sul computer.",
+    "immagini": [
+      "data/images/image8.png",
+      "data/images/image9.png"
+    ]
+  },
+  {
+    "titolo": "LPA",
+    "contenuto": "La piattaforma LPA – Lab Processing Application è dedicata alla parte finale del processo di inserimento ordini verso il laboratorio di Sedico. È possibile accedere alla piattaforma attraverso il Tool Kit, selezionando Lab Processing Application.\n\nAttraverso di essa è possibile gestire diversi processi: trasmettere gli ordini a Sedico, modificare la tipologia di job type (complete pair, lens only, frame to come), inserire tracciature per le lavorazioni lens only, effettuare il processo di ispezione al ricevimento dei work order e gestire i remake post-vendita.\n\nLe credenziali d’accesso per il sistema corrispondono alle credenziali personali attualmente utilizzate per MIM.\n\nUna volta effettuato l’accesso a LPA, la schermata propone un elenco in ordine cronologico di tutti gli ordini attualmente in gestione sul negozio, ossia tutti gli ordini inseriti a livello di Customer Order ma, non ancora trasmessi a Sedico.\n\nPer procedere alla trasmissione, selezionare l’ordine di interesse nella schermata principale se immediatamente visibile o, in alternativa, ricercarlo attraverso il campo Order Number.\n\nIl numero di ordine che si vede su LPA è lo stesso di quello visualizzato su Order Tracker e che visualizza il Lab\n\nUna volta selezionato l’ordine, cliccare sull’icona in corrispondenza della barra delle azioni sulla destra. Lo status dell’ordine passerà da Tendered a Trasmitted.\n\nStore di appartenenzaStore di appartenenzaTipo (in questo caso, l’ordine è in lab)Tipo (in questo caso, l’ordine è in lab)Stato dell’ordineStato dell’ordineData di pagamentoData di pagamentoTipo e materiale lentiTipo e materiale lentiID dell’ordineID dell’ordineID vassoioID vassoioNominativo clienteNominativo cliente\n\nStore di appartenenza\n\nStore di appartenenza\n\nTipo\n\n(in questo caso, l’ordine è in lab)\n\nTipo\n\n(in questo caso, l’ordine è in lab)\n\nStato dell’ordine\n\nStato dell’ordine\n\nData di pagamento\n\nData di pagamento\n\nTipo e materiale lenti\n\nTipo e materiale lenti\n\nID dell’ordine\n\nID dell’ordine\n\nID vassoio\n\nID vassoio\n\nNominativo cliente\n\nNominativo cliente\n\nDa questo momento in poi monitorare l’ordine attraverso Order Tracker.\n\nAlcuni possibili status in cui un ordine si può trovare su LPA sono i seguenti:\n\nPending Cancel, Ready, Received, Remote Order Complete, Shipped, Staged, Surfacing. Ma i principali sono:\n\nTendered, quando l’ordine è stato completato su Customer Order\n\nTrasmitted, quando l’ordine è stato trasmesso al laboratorio di Sedico\n\nInoltre, su LPA è possibile anche eseguire le azioni riportate di seguito cliccando sulle seguenti icone:\n\nRistampa il lab ticketCancella ordineTracciaturaRemake outside labTrasmetti ordineRistampa il lab ticketCancella ordineTracciaturaRemake outside labTrasmetti ordine\n\nRistampa il lab ticket\n\nCancella ordine\n\nTracciatura\n\nRemake outside lab\n\nTrasmetti ordine\n\nRistampa il lab ticket\n\nCancella ordine\n\nTracciatura\n\nRemake outside lab\n\nTrasmetti ordine\n\nÈ inoltre possibile, sempre dalla stessa schermata, effettuare diverse azioni:\n\nComplete Order: Per completare l’ordine, procedendo con l’ispezione.\n\nBreakage/Defects: Segnalare rotture o difetti ed eventualmente sostituire UPC.\n\nEdit processing type: per modificare il tipo di lavorazione. Cliccando su Change Lab posso vedere il tipo di ordine, inoltre cliccando Edit Lab (Outside Porcessing per Sedico) e in Job Type è possibile cambiare la tipologia di ordine (da Frame to Come a Lens Only, per esempio). In questa sezione è possibile, inoltre, eseguire anche la tracciatura.\n\nEdit Order Ticket: in Change OPC per modificare le misure della montatura; modificare lo spessore delle lenti e le misurazioni del cliente specifico.",
+    "immagini": [
+      "data/images/image10.png",
+      "data/images/image11.png",
+      "data/images/image12.png",
+      "data/images/image13.png",
+      "data/images/image1410.png",
+      "data/images/image14.png",
+      "data/images/image17.png"
+    ]
+  },
+  {
+    "titolo": "Order tracker",
+    "contenuto": "La piattaforma Order Tracker rimane lo strumento dedicato al controllo e monitoraggio della lavorazione degli ordini e del loro flusso di consegna. È possibile accedere alla piattaforma attraverso il Tool Kit, selezionando Order Tracker.\n\nTra le novità che derivano dall’adozione di Ciao! Optical come nuovo sistema di cassa ci sono alcune migliorie che riguardo Order Tracker:\n\nQuando un WO viene consegnato al cliente e scontrinato in cassa, il record dell’ordine ad esso riferito viene in automatico identificato come consegnato e si cancella dalla lista degli ordini ancora in gestione presente in Order Tracker.\n\nDi conseguenza non si rende più necessario effettuare la procedura manuale per indicare che è un ordine è stato consegnato (DISPENSED) perché questo processo è automatico.\n\nNella sezione PRODUCT TO COME è possibile monitorare anche gli ordini di lenti a contatto indirizzati al negozio.\n\nTutti gli ordini effettuati con Smart Shopper sono monitorabili in Order Tracker. In particolare:\n\nOrdini di sola montatura (occhiale da sole o montatura da vista) à l’ordine è visibile nella sezione PRODUCT TO COME di Order Tracker. È possibile controllare l’ordine fino al momento in cui viene dato in gestione al corriere.\n\nOrdini di occhiali completi la cui montatura è stata selezionata da Smart Shopper (nuova funzionalità disponibile grazie a Ciao! Optical) à l’ordine è visibile nella sezione OPEN ORDERS come avviene attualmente per tutti i work order.",
+    "immagini": [
+      "data/images/image15.png"
+    ]
+  },
+  {
+    "titolo": "Operazioni di apertura e di chiusura",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "Apertura negozio e postazioni",
+    "contenuto": "Con Ciao Optical! è necessario procedere in primo luogo all’apertura del Negozio e successivamente all’apertura di ogni Cassa. Le casse sono identificabili con ciascuna delle diverse postazioni da cui viene utilizzato il sistema. Non solo quindi i pc di cassa ma anche tutti i pc da banchetto e gli iPad.\n\nL’operazione di apertura di un negozio è da effettuarsi da un pc fisso di cassa per procedere ad aprire il Negozio. Questa operazione serve per definire la data fiscale del giorno.  La barra evidenziata permette di identificare lo status del Negozio (sezione centrale della barra) e della Postazione di cassa in utilizzo (sezione destra della barra): il colore rosso indica chiuso, il colore verde indica aperto.\n\nEffettuare l’accesso alla sezione Back Office inserendo le proprie credenziali. Il colore della schermata di XStore da arancione diventa nera per indicare l’accesso avvenuto alla sezione di back office.\n\nSelezionare la Modalità Apertura/Chiusura e successivamente Apertura Negozio. Dopo aver aperto il negozio, la barra centrale si colora di verde, ad indicare che lo stato del negozio è passato su aperto.\n\nSelezionando Sì, viene mostrata la data lavorativa del giorno ed eventuali messaggi lasciati dai colleghi il giorno precedente in fase di chiusura.\n\nA seguire procedere ad aprire la cassa selezionando Apertura Cassa e scegliere Ok. Selezionare Si per confermare l’apertura.\n\nSelezionare sempre Ok per questo pop-up. Solo nel caso in cui una o più delle ultime tre voci (Scartati, Non trovati o Sconosciuto) riportino valori diversi da 0, contattare l’Helpdesk Toshiba per supporto. In ogni caso è possibile procedere.\n\nProcedere quindi al conteggio dei contanti presenti nel fondo cassa. Per ogni taglio di contanti è possibile immettere la quantità corretta inserendo la numerica nella barra e selezionando Invio.\n\nAl termine del conteggio selezionare Terminato Conteggio.\n\nReplicare l’operazione di apertura Cassa per tutte le postazioni presenti in negozio. Per le postazioni con cassetto è richiesto il conteggio del fondo cassa, per tutte le altre (come, ad esempio, per gli iPad o per i pc da banchetto) nonostante venga mostrata la schermata del conteggio, non è necessario effettuarlo poiché non abbinate a un cassetto contanti e quindi procedere direttamente a selezionare Terminato Conteggio.\n\nSe il conteggio inserito non risulta uguale all’ammontare lasciato in chiusura di cassa il giorno prima, si visualizza il messaggio sotto riportato.\n\nCliccando su Si, bisogna fornire una motivazione per lo sbilanciamento.\n\nCliccare su OK.",
+    "immagini": [
+      "data/images/image16.png",
+      "data/images/image18.png",
+      "data/images/image19.png",
+      "data/images/image20.png",
+      "data/images/image21.png",
+      "data/images/image22.png",
+      "data/images/image23.png",
+      "data/images/image24.png",
+      "data/images/image26.png",
+      "data/images/image25.png",
+      "data/images/image27.png"
+    ]
+  },
+  {
+    "titolo": "Chiusura postazioni e negozio",
+    "contenuto": "Per chiudere il negozio come primo passaggio è necessario chiudere tutte le postazioni di vendita. Per farlo, accedere a Back Office e selezionare Modalità Apertura/Chiusura e successivamente Chiusura cassa. Ripetere il procedimento per tutte le postazioni (iPad compresi).\n\nSelezionare Si per confermare la chiusura della cassa.\n\nNel caso in cui non fosse possibile chiudere una cassa (e di conseguenza il negozio) per problemi tecnici è possibile effettuare la chiusura di tutte le casse tramite il comando Forza chiusura. Quest’azione è da effettuare solamente in casi estremi.\n\nLa schermata successiva proposta dal sistema è uno specchietto che confronta quanto registrato dalla stampante fiscale (colonna Totale Stampante) con quanto inserito attraverso il sistema di cassa (colonna Totale Cassetti). Nel caso in cui:\n\nil Totale Stampante sia inferiore al Totale Cassetti, procedere a registrare le vendite mancanti sulla stampante fiscale.\n\nIl Totale Cassetti sia inferiore al Totale Stampante, procedere a registrare le transazioni mancanti, sul sistema di cassa, usando la funzione di vendita manuale da XStore.\n\nDopo aver premuto Ok, il sistema propone la schermata per effettuare il conteggio dei contanti. Procedere al conteggio del cassetto nel caso in cui la postazione di cassa interessata ne sia provvista, altrimenti cliccare su Sommario.\n\nImmettere la quantità di pezzi per ciascun taglio di denaro proposto selezionando il taglio interessato e inserendo nella barra la quantità. Al termine del conteggio, cliccare Sommario.\n\nLa schermata del Sommario propone l’elenco di tutti i metodi di pagamento con un confronto tra la Somma Dichiarata e la Somma Sistema. Per la voce Contanti la somma dichiarata corrisponde a quanto precedentemente inserito al termine del conteggio dei contanti. Per tutte le altre voci il denaro riportato corrisponde a quanto presente nella colonna Somma Sistema.\n\nNel caso in cui, vi sia la necessità di modificare una di queste voci, selezionarla dall’elenco, cliccare Conto selezionato, immettere il valore corretto.\n\nCliccare Sommario per ritornare alla pagina precedente.\n\nUna volta terminata l’attività, selezionare Terminato Conteggio.\n\nNel caso in cui il sistema registri una discrepanza, è possibile accettarla o tornare alla schermata precedente per modificare i conteggi. Nel caso di accettazione è richiesto di selezionare una causale come giustificativo e di immettere una nota. Se il conteggio inserito non risulta uguale all’ammontare lasciato in chiusura di cassa il giorno prima, si visualizza il messaggio sotto riportato.\n\nCliccando su Si, bisogna fornire una motivazione per lo sbilanciamento come in figura:\n\nErrore pagamento: nel caso in cui la sera in chiusura ci sia un ammanco o un’eccedenza cassa a causa di un errato resto contante.\n\nCrossover: nel caso in cui ci sia un’uscita in una modalità e un’entrata di pari valore in una diversa modalità di pagamento.\n\nDifferenza corrispettivi: nel caso in cui durante la giornata ci siano stati dei problemi con la cassa fiscale, scontrini bloccati, errati, doppi per cui la sera il totale corrispettivi su Ciao! non corrisponde alla strisciata di chiusura cassa.\n\nAltro: altre differenze causate da motivi diversi (ad esempio resi con metodi di pagamento diversi da cash per i quali il cliente non viene rimborsato in store, tipicamente Adaro/RBM)\n\nCliccare su OK.\n\nCome ultimo step, Il sistema ti propone l’importo da versare in Cassaforte, tale valore sarà dato dal totale dei contanti contati meno il fondo cassa fisso a 300€.  In quanto NON sarà più possibile modificare il valore del fondo cassa.\n\nSuggeriamo quindi di far sì che i 300€ siano composti da più tagli diversi possibili, in modo da poter gestire il contante agevolmente la mattina seguente. Versare quindi in cassaforte quanto proposto dal sistema. In particolare, potrete inserire tutti i tagli in banconote in una busta come già procedura attuale e inserire invece le monete in un sacchetto che conserverete in cassaforte.\n\nAd esempio: totale contanti presenti in cassetto a fine giornata pari a 536,50€ Il sistema proporrà automaticamente di versare in cassaforte 236,50€. Accettare il valore, lasciare nel cassetto 300€, e spostare in cassaforte i 236,50€.\n\nUna volta effettuata la chiusura di cassa, la barra in basso corrispondente alla cassa diventa rossa.\n\nA seguire procedere alla chiusura del negozio selezionando Chiusura Negozio.\n\nScegliere Si e lasciare un messaggio di chiusura (visualizzabile all’apertura di negozio il giorno successivo).\n\nSi consiglia di scrivere all’interno del messaggio di chiusura negozio, per ogni cassa, l’importo di Fondo Cassa precedentemente inserito.\n\nCome visto per la cassa, la barra del negozio diventa rossa indicando che il negozio è stato chiuso.",
+    "immagini": [
+      "data/images/image28.png",
+      "data/images/image29.png",
+      "data/images/image30.png",
+      "data/images/image31.png",
+      "data/images/image32.png",
+      "data/images/image33.png",
+      "data/images/image36.png",
+      "data/images/image34.png",
+      "data/images/image38.png",
+      "data/images/image35.png",
+      "data/images/image37.png",
+      "data/images/image39.png",
+      "data/images/image40.png",
+      "data/images/image41.png",
+      "data/images/image42.png",
+      "data/images/image43.png",
+      "data/images/image44.png"
+    ]
+  },
+  {
+    "titolo": "Gestione anagrafica cliente",
+    "contenuto": "Il flusso di raccolta anagrafica cliente su Ciao! Optical condotto attraverso l’iPad ha la funzionalità aggiuntiva di poter far firmare al cliente i moduli privacy direttamente da iPad, evitandone quindi la stampa e il conseguente archivio cartaceo.\n\nPer questo motivo si consiglia di eseguire tale processo utilizzando l’iPad. L’iPad va tenuto orizzontalmente per permettere la corretta visualizzazione della schermata di Ciao! Optical.\n\nPer avviare Ciao! Optical da iPad, cliccare l’icona dell’app XStore rossa nel riquadro in figura (NON l’icona Ciao!)",
+    "immagini": [
+      "data/images/image45.png",
+      "data/images/image48.png"
+    ]
+  },
+  {
+    "titolo": "Ricerca cliente esistente",
+    "contenuto": "Dopo aver eseguito l’accesso, cliccare sull’icona del lucchetto, la schermata che si apre è quella relativa alla ricerca cliente.\n\nÈ possibile accedere a questa pagina anche cliccando sull’icona del menù in basso a sinistra e successivamente su Ricerca Cliente.\n\nPer dare avvio alla ricerca, è necessario inserire almeno uno di questi campi:\n\nID Scontrino (barcode presente sullo scontrino fiscale scansionabile con il lettore ottico o con fotocamera iPad cliccando su Cattura ID scontrino).\n\nNome + Cognome (almeno le prime 2 lettere del cognome e la prima lettera del nome)\n\nIndirizzo e-mail\n\nNumero di telefono cellulare (almeno le prime 7 cifre)\n\nIl database vendite e clienti di Ciao! è condiviso tra tutti i negozi della rete Salmoiraghi & Viganò e i Monobrand. Non è possibile visionare o ricercare vendite effettuate su negozi in franchising\n\nCliccare su Cerca per visualizzare i risultati della ricerca.\n\nNel caso in cui le informazioni inserite non fossero sufficienti ad avviare la ricerca, compare un messaggio d’errore invitando a compilare i campi con almeno uno dei dati di cui sopra.\n\nCliccare su Cancella per cancellare tutte le informazioni inserite e avviare una nuova ricerca. I risultati della ricerca vengono mostrati con il dettaglio del nome, cognome, e-mail e numero di telefono cellulare.\n\nSulla sinistra è possibile aggiungere ulteriori criteri di ricerca (questa attività è utile per restringere il campo nel caso in cui la ricerca abbia restituito molti risultati).\n\nNel caso in cui fosse necessario visualizzare più informazioni è possibile espandere i risultati della ricerca cliccando sui 3 puntini azzurri sulla destra per vedere codice postale e data di nascita del cliente.\n\nCliccare sull’ icona + per duplicare l’anagrafica. Questo passaggio è utile nel caso in cui si volesse creare l’anagrafica di persone appartenenti allo stesso nucleo familiare partendo dall’anagrafica già esistente di uno di essi. Sarà infatti più veloce creare l’anagrafica cambiando solo i dati non comuni (dati comuni possono essere, ad esempio, la residenza ed il cognome).\n\nPer i passaggi necessari per la creazione di un nuovo cliente (vedere capitolo 3.2).\n\nDopo aver individuato il profilo d’interesse all’interno della lista proposta, cliccare sul nome per accedere alla scheda anagrafica. Il Profilo Cliente riassume tutti i dati relativi al cliente (anagrafici e medici).\n\nDati anagraficiMetodo firma consensi privacy Per visualizzare lo storico ordini del clientePer aggiornare il profilo clienteDati mediciDati anagraficiMetodo firma consensi privacy Per visualizzare lo storico ordini del clientePer aggiornare il profilo clienteDati medici\n\nDati anagrafici\n\nMetodo firma consensi privacy\n\nPer visualizzare lo storico ordini del cliente\n\nPer aggiornare il profilo cliente\n\nDati medici\n\nDati anagrafici\n\nMetodo firma consensi privacy\n\nPer visualizzare lo storico ordini del cliente\n\nPer aggiornare il profilo cliente\n\nDati medici\n\nÈ possibile visionare le metodologie di contatto accordate dal cliente attraverso i consensi privacy nelle voci espresse tra i dati anagrafici del cliente sotto\n\nAcconsento All’invio E-mail e / o Acconsento All’invio di SMS. In alternativa selezionare Visualizza nel box dedicato ai consensi privacy per vedere il documento sottoscritto dal cliente.\n\nNel caso in cui si volesse modificare e/o visualizzare i flag dei consensi è possibile accedere alla sezione Aggiorna Profilo.\n\nSe la lista proposta non restituisce i risultati desiderati, è possibile creare un nuovo cliente selezionando +Nuovo cliente.\n\nIl passaggio dalla Ricerca Cliente è pensato per evitare la duplicazione di anagrafiche, per cui la creazione di un nuovo cliente può avvenire soltanto dopo averlo ricercato e non averlo trovato.\n\nInoltre, si consiglia di controllare sempre che sia presente l'informazione dell'assicurazione, del codice fiscale e i flag dei consensi per le anagrafiche preesistenti (importate da Acuitas).",
+    "immagini": [
+      "data/images/image46.png",
+      "data/images/image47.png",
+      "data/images/image49.png",
+      "data/images/image50.png",
+      "data/images/image53.png",
+      "data/images/image54.png",
+      "data/images/image55.png",
+      "data/images/image51.png",
+      "data/images/image52.png",
+      "data/images/image56.png",
+      "data/images/image59.png",
+      "data/images/image57.png",
+      "data/images/image61.png",
+      "data/images/image58.png",
+      "data/images/image60.png"
+    ]
+  },
+  {
+    "titolo": "Creazione nuovo cliente",
+    "contenuto": "Dopo aver cliccato su +Nuovo cliente, inserire le informazioni del cliente nella scheda Aggiungi Cliente:\n\nLe informazioni minime obbligatorie per poter creare un profilo cliente sono:\n\nNome + Cognome\n\nIndirizzo e-mail (nel caso in cui il cliente non ne disponesse, inserire sempre questo indirizzo e-mail fittizio: fittizio@luxottica.com – e assicurarsi di raccogliere almeno un contatto alternativo per comunicare con il cliente)\n\nAssicurazione (da compilare per tutti i clienti. Nel caso in cui vi fosse un cliente senza assicurazione o con assicurazione non gestita da noi selezionare i campi NO ASSICURAZIONE o ALTRA ASSICURAZIONE)\n\nSi consiglia comunque di aggiungere alle informazioni obbligatorie i dati di:\n\nNumero di cellulare\n\nCodice fiscale (specialmente per prodotto vista)\n\nResidenza (utilizzati per la fattura, se inseriti in anagrafica vengono recuperati automaticamente all’emissione della fattura senza il bisogno di inserirli)\n\nTra le informazioni è possibile anche inserire il riferimento di un tutore legale. Cliccare su Tutore legale e poi su Continua per accedere alla pagina dove inserire le informazioni richieste per il tutore legale:\n\nNel caso in cui venga aggiunto un tutore legale, inserire la mail del tutore legale sia nell’anagrafica del cliente sia in quella del tutore legale, in questo modo la mail di conferma per il trattamento dei dati personali è inviata alla mail del tutore.\n\nPer salvare l’anagrafica cliccare su Aggiungi cliente.",
+    "immagini": [
+      "data/images/image62.png",
+      "data/images/image63.png",
+      "data/images/image64.png",
+      "data/images/image65.png",
+      "data/images/image68.png",
+      "data/images/image69.png",
+      "data/images/image70.png",
+      "data/images/image71.png",
+      "data/images/image66.png",
+      "data/images/image67.png",
+      "data/images/image72.png",
+      "data/images/image75.png",
+      "data/images/image76.png",
+      "data/images/image77.png"
+    ]
+  },
+  {
+    "titolo": "Raccolta consensi marketing",
+    "contenuto": "La raccolta dei consensi marketing è sempre richiesta durante la creazione di un nuovo cliente. Inoltre, è necessario raccogliere nuovamente i consensi nel caso di modifica di almeno uno dei flag di profilazione marketing o ricezione di comunicazioni (via e-mail o SMS). Nel caso in cui venisse flaggato il consenso relativo alla ricezione di SMS, anche il numero di telefono diventa un dato obbligatorio da inserire per la creazione del cliente.\n\nA seconda dello strumento utilizzato è possibile raccogliere i consensi attraverso diverse modalità. Cliccare su Più opzioni per visualizzarle tutte.\n\nModalità preferibile - Firma digitale del documento (opzione disponibile solo su iPad).  Selezionare Firma qui per accede ad una sezione riportante l’informativa privacy e la casella dove firmare. I consensi sono già precompilati in base a quelli selezionati nella creazione cliente\n\nÈ possibile poi condividere l’informativa privacy con stampa cartacea o e-mail, cliccando rispettivamente su Stampa o su e-mail (il cliente riceve una e-mail con l’informativa privacy firmata in allegato). È inoltre possibile selezionare Salva e Ritorna per salvare l’informativa privacy firmata senza condividerla.\n\nInvio di una e-mail al cliente per la presa consenso. All’interno dell’e-mail è presente un tasto che, se selezionato, vale come conferma per i consensi. L’invio avviene dopo l’inserimento di un check up o di un flusso di vendita/ordine. È preferibile assicurarsi che il cliente rilasci il consenso recuperando insieme la mail prima che il cliente esca dallo store.\n\nModalità non preferibile – Stampa del documento e firma su carta. Nel caso in cui non sia disponibile un iPad e il cliente non abbia un indirizzo e-mail valido, sarà possibile acquisire il consenso tramite firma dell’informativa in formato cartaceo cliccando su Stampa.\n\nSolo in questo ultimo caso è necessario archiviare la copia dell’informativa cartacea firmata dal cliente e conservarla per 10 anni in negozio. Per tutte le altre modalità di raccolta del consenso l’informativa viene salvata all’interno del sistema. È sempre possibile verificare la modalità di raccolta del consenso all’interno del Profilo Cliente.",
+    "immagini": [
+      "data/images/image73.png",
+      "data/images/image79.png",
+      "data/images/image74.png",
+      "data/images/image78.png",
+      "data/images/image82.png",
+      "data/images/image83.png",
+      "data/images/image80.png",
+      "data/images/image81.png",
+      "data/images/image84.png",
+      "data/images/image85.png",
+      "data/images/image86.png",
+      "data/images/image87.png",
+      "data/images/image90.png"
+    ]
+  },
+  {
+    "titolo": "Gestione dati prescrizione e visite",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "Creazione lista ottici interni",
+    "contenuto": "Il sistema Ciao! Optical prevede una lista unica contenente sia i nominativi dei Medici oculisti esterni che quelli degli Ottici interni.\n\nQuesta lista è soggetta a revisione mensile da parte dei team di sede per recepire tutti gli eventuali cambiamenti degli staff di negozio in termini di Ottici interni e inserire / modificare le informazioni in merito ai Medici oculisti esterni.\n\nPer poter facilitare la selezione nel campo Nome degli Ottici interni in fase di inserimento check-up o prima applicazione LAC, è possibile configurare una sotto lista di ottici interni specifica del negozio. Questa attività è svolta dallo Store Manager il primo giorno di installazione del nuovo sistema di cassa e ogni volta che vi sono aggiornamenti dello staff.\n\nPer creare la lista interna di negozio è necessario accedere alla sezione Cerca Ottico. Vi sono due modalità per accedervi:\n\nAccedendo ad un Profilo Cliente, cliccando su Gestisci Prescrizione -> Gestisci lista ottici.\n\nAccedendo ad un Profilo Cliente, cliccando su Servizi Ottici -> Gestisci Lista Ottici.\n\nNella sezione Cerca Ottico, ricercare il nominativo dell’Ottico interno da inserire nella sotto lista e flaggare in sua corrispondenza come mostrato in figura. È possibile aggiungere altri ottici alla lista interna utilizzando sempre i campi sulla sinistra e cliccando su Cerca.\n\nPer ricercare ottici interni inserire in Cognome e Nome il cognome e il nome dell’ottico, mentre in Posizione inserire Ottico Interno come da esempio. Selezionare il record di interesse, cliccando su di esso e poi flaggare il tab per settare la persona come interna.\n\nIl terzo campo Tipo di dottore, NON VA COMPILATO.\n\nCliccare sui tre puntini per visualizzare maggiori informazioni (indirizzo, città, stato, CAP)Cliccare sui tre puntini per visualizzare maggiori informazioni (indirizzo, città, stato, CAP)Lasciare il flag su ‘Attivo’Lasciare il flag su ‘Attivo’È obbligatorio inserire almeno un carattere in ‘Cognome Nome’ e  in ‘Posizione’ inserire ottico internoÈ obbligatorio inserire almeno un carattere in ‘Cognome Nome’ e  in ‘Posizione’ inserire ottico interno\n\nCliccare sui tre puntini per visualizzare maggiori informazioni (indirizzo, città, stato, CAP)\n\nCliccare sui tre puntini per visualizzare maggiori informazioni (indirizzo, città, stato, CAP)\n\nLasciare il flag su ‘Attivo’\n\nLasciare il flag su ‘Attivo’\n\nÈ obbligatorio inserire almeno un carattere in ‘Cognome Nome’ e  in ‘Posizione’ inserire ottico interno\n\nÈ obbligatorio inserire almeno un carattere in ‘Cognome Nome’ e  in ‘Posizione’ inserire ottico interno",
+    "immagini": [
+      "data/images/image88.png",
+      "data/images/image89.png",
+      "data/images/image91.png",
+      "data/images/image92.png",
+      "data/images/image93.png",
+      "data/images/image94.png"
+    ]
+  },
+  {
+    "titolo": "Registrazione Check-up – Ricetta – Prima applicazione LAC",
+    "contenuto": "Il flusso di registrazione check-up, ricetta o prima applicazione LAC su Ciao! Optical condotto attraverso l’iPad è la modalità consigliata.\n\nPer inserire i dati di una ricetta, un check-up o di una prima applicazione LAC il processo da seguire è il seguente:\n\nRegistrazione degli stessi a sistema attraverso la sezione Ser.Ottici\n\nInserimento dei dati del check-up, della ricetta o della prima applicazione LAC nell’anagrafica del cliente attraverso Gestione Prescrizioni\n\nPer registrare un check-up o una ricetta accedere alla sezione Profilo Cliente e selezionare in alto il tasto Ser.Ottici.\n\nCompilare i dati richiesti:\n\nStato del Cliente: indicare se il paziente è nuovo o meno (il riferimento è al cliente come paziente. Se non è la prima volta che il cliente effettua un check-up, ed è quindi già paziente per Salmoiraghi&Viganò, selezionare Accertato)\n\nOrigine: Esterno (ricetta di medico oculista esterno); Interno (controllo effettuato da ottico interno)\n\nEsame della vista: indicare se si sta registrando una ricetta esterna o un check-up interno\n\nValutazione delle lenti a contatto: selezionare Prima applicazione LAC per registrare una Prima Applicazione LAC. In questo caso sarà necessario selezionare anche la voce di Check-up nel campo Esame della vista.\n\nSolo dopo aver selezionato l’origine, sarà possibile inserire il nome dell’ottico interno o del medico oculista esterno nel campo Nome digitandone il valore. Dopo aver digitato le prime lettere il sistema propone una lista ristretta da cui selezionare.\n\nSe il medico oculista è già presente nella lista, è sufficiente selezionarne il nominativo per procedere nel flusso di vendita. Alcuni medici oculisti potrebbero essere presenti due volte nell’elenco. Quando il nome è associato a una città si fa riferimento allo studio privato, il secondo, invece, fa riferimento allo studio in cui opera.\n\nPer quanto riguarda la lista di Medici Oculisti esterni potrebbe esservi la necessità di segnalare una ricetta di Medico oculista non presente nella lista unica. In questo caso, in fase di registrazione della ricetta selezionare il valore nuovo medico oculista.\n\nIn un secondo momento aprire un ticket GLPI categoria Sviluppo Business 02. Classe Medica segnalando la presenza di un nuovo medico oculista con relativi dettagli. Con l’aggiornamento della lista il nominativo sarà visibile e sarà possibile aggiornare di conseguenza la prescrizione d’interesse.\n\nUna volta completati i campi non cliccare Continua ma selezionare la voce in basso a destra Aggiungi prescrizioneStato del paziente visitatoOrigine: fonte dei dati inseriti nel check-up / ricetta / prima applicazione LACEsame della vista: tipologia esameValutazione delle lenti a contatto: Prima Applicazione LACStato del paziente visitatoOrigine: fonte dei dati inseriti nel check-up / ricetta / prima applicazione LACEsame della vista: tipologia esameValutazione delle lenti a contatto: Prima Applicazione LAC\n\nStato del paziente visitato\n\nOrigine: fonte dei dati inseriti nel check-up / ricetta / prima applicazione LAC\n\nEsame della vista: tipologia esame\n\nValutazione delle lenti a contatto: Prima Applicazione LAC\n\nStato del paziente visitato\n\nOrigine: fonte dei dati inseriti nel check-up / ricetta / prima applicazione LAC\n\nEsame della vista: tipologia esame\n\nValutazione delle lenti a contatto: Prima Applicazione LAC\n\nUna volta completati i campi non cliccare Continua ma selezionare la voce in basso a destra Aggiungi prescrizione\n\nCliccando su questo tasto il sistema vi riporta direttamente nella schermata per l'inserimento della prescrizione. Il dato di origine e il nome dell'ottico/ medico oculista verranno riportati automaticamente senza che vengano reinseriti.\n\nIn più sempre in questa schermata potrete aggiungere anche un'altra prescrizione, premendo il tasto Aggiungere Altro, che apre una nuova schermate di prescrizione.\n\nPer esempio, questo metodo potrebbe essere molto utile per un cliente progressivo per il quale vogliate creare più di una prescrizione (progressiva da lontano e da vicino)\n\nUna volta terminata la creazione delle prescrizioni che desiderate, premere sul tasto Riprendi servizi medici, per tornare alla schermata iniziale. Da qui procedete con continua alla fase di emissione di scontrino a zero cliccando su Procedi al pagamento.\n\nCliccare su Transazione completata per concludere la registrazione. Di conseguenza, cliccando su Stampa la scontrinatrice fiscale emette un documento gestionale riportante un servizio a valore 0. Questo documento gestionale non è da consegnare al cliente.\n\nDa iPad il flusso segue quanto riportato sopra. L’unica differenza è la posizione del tasto Transazione Completata: una volta su Xstore, cliccare sull’icona di menù in alto a destra e successivamente su Transazione Completata",
+    "immagini": [
+      "data/images/image95.png",
+      "data/images/image96.png",
+      "data/images/image97.png",
+      "data/images/image98.png",
+      "data/images/image99.png",
+      "data/images/image100.png",
+      "data/images/image101.png",
+      "data/images/image102.png",
+      "data/images/image103.png",
+      "data/images/image105.png",
+      "data/images/image104.png",
+      "data/images/image108.png"
+    ]
+  },
+  {
+    "titolo": "Inserimento dati Check-up – Ricetta – Prima applicazione LAC",
+    "contenuto": "Per procedere al secondo step del processo, che prevede l’inserimento dei dati medici nell’anagrafica del cliente, accedere al Profilo Cliente, cliccare su Gestisci Prescrizioni e successivamente su Aggiungi prescrizione.\n\nIl primo campo da compilare è l’origine. Ci sono quattro opzioni:\n\nCheck up\n\nLenti del cliente\n\nRicetta esterna\n\nPlano\n\nSuccessivamente compilare anche i seguenti campi:\n\nIl campo nome del dottore compare una volta indicata l’origine dei dati mediciNome del medico oculista o ottico che ha effettuato la visita medica o check-upData di creazione e scadenza della prescrizione (la scadenza è automaticamente impostata dal sistema a un anno dalla data di creazione)Il tasto “attivo” è selezionato di default. Se un cliente torna in un secondo momento con una prescrizione più aggiornata, si può rendere “inattiva” la prescrizione dalla sezione dello storico prescrizioni flaggando sul campo Attivo / InattivoDati medici contenuti nella ricetta o check-up (es: gradazione) è possibile inserire all’interno di questi campi più di 5 caratteri, per esempio -11.25Il campo nome del dottore compare una volta indicata l’origine dei dati mediciNome del medico oculista o ottico che ha effettuato la visita medica o check-upData di creazione e scadenza della prescrizione (la scadenza è automaticamente impostata dal sistema a un anno dalla data di creazione)Il tasto “attivo” è selezionato di default. Se un cliente torna in un secondo momento con una prescrizione più aggiornata, si può rendere “inattiva” la prescrizione dalla sezione dello storico prescrizioni flaggando sul campo Attivo / InattivoDati medici contenuti nella ricetta o check-up (es: gradazione) è possibile inserire all’interno di questi campi più di 5 caratteri, per esempio -11.25\n\nIl campo nome del dottore compare una volta indicata l’origine dei dati medici\n\nNome del medico oculista o ottico che ha effettuato la visita medica o check-up\n\nData di creazione e scadenza della prescrizione (la scadenza è automaticamente impostata dal sistema a un anno dalla data di creazione)\n\nIl tasto “attivo” è selezionato di default.\n\nSe un cliente torna in un secondo momento con una prescrizione più aggiornata, si può rendere “inattiva” la prescrizione dalla sezione dello storico prescrizioni flaggando sul campo Attivo / Inattivo\n\nDati medici contenuti nella ricetta o check-up (es: gradazione) è possibile inserire all’interno di questi campi più di 5 caratteri, per esempio -11.25\n\nIl campo nome del dottore compare una volta indicata l’origine dei dati medici\n\nNome del medico oculista o ottico che ha effettuato la visita medica o check-up\n\nData di creazione e scadenza della prescrizione (la scadenza è automaticamente impostata dal sistema a un anno dalla data di creazione)\n\nIl tasto “attivo” è selezionato di default.\n\nSe un cliente torna in un secondo momento con una prescrizione più aggiornata, si può rendere “inattiva” la prescrizione dalla sezione dello storico prescrizioni flaggando sul campo Attivo / Inattivo\n\nDati medici contenuti nella ricetta o check-up (es: gradazione) è possibile inserire all’interno di questi campi più di 5 caratteri, per esempio -11.25\n\nCliccare su Continua per attivare la raccolta dei consensi medici. Il rilascio dei consensi privacy per i dati medici avviene via stampa o firma digitale (da iPad).\n\nUna volta aggiunta la nuova prescrizione, questa sarà visibile nello storico delle prescrizioni del cliente come mostrato in figura.\n\nFlaggando sulla sinistra in corrispondenza della prescrizione d’interesse è possibile attivare il tasto Seleziona Prescrizione.\n\nCliccarlo per selezionare una prescrizione per una vendita.\n\nUna prescrizione non può mai essere eliminata ma soltanto resa inattiva. Alla scadenza della prescrizione, la selezione diventa automaticamente inattiva.\n\nFlaggare in corrispondenza di una prescrizione inutilizzata / datata per renderla inattiva e non selezionabileFlaggare in corrispondenza di una prescrizione inutilizzata / datata per renderla inattiva e non selezionabileFlaggare in corrispondenza di una prescrizione per renderla selezionabile per iniziare una venditaFlaggare in corrispondenza di una prescrizione per renderla selezionabile per iniziare una vendita\n\nFlaggare in corrispondenza di una prescrizione inutilizzata / datata per renderla inattiva e non selezionabile\n\nFlaggare in corrispondenza di una prescrizione inutilizzata / datata per renderla inattiva e non selezionabile\n\nFlaggare in corrispondenza di una prescrizione per renderla selezionabile per iniziare una vendita\n\nFlaggare in corrispondenza di una prescrizione per renderla selezionabile per iniziare una vendita",
+    "immagini": [
+      "data/images/image106.png",
+      "data/images/image107.png",
+      "data/images/image109.png",
+      "data/images/image110.png",
+      "data/images/image111.png",
+      "data/images/image113.png",
+      "data/images/image114.png",
+      "data/images/image115.png",
+      "data/images/image116.png",
+      "data/images/image112.png",
+      "data/images/image117.png",
+      "data/images/image118.png",
+      "data/images/image119.png",
+      "data/images/image121.png"
+    ]
+  },
+  {
+    "titolo": "Creazione WO Frame + Lenti o Solo Lenti",
+    "contenuto": "Su Ciao!Optical si può scegliere cosa vendere al cliente, Complete pair nel caso si voglia vendere sia montatura che lenti o Solo lenti nel caso di  solo le lenti.\n\nA seconda di cosa si sceglie, al termine della creazione del vostro WO è il sistema stesso che fornisce un feedback sulla lavorazione con cui quell'ordine verrà prodotto (job type)\n\n1.Se abbiamo scelto “Complete pair” il sistema può darci 3 feedback diversi:\n\nComplete pair se c'è la disponibilità in laboratorio sia della montatura che delle lenti;\n\nLens only se servono solo le lenti dal lab e la montatura è già in negozio;\n\nFrame to Come se la montatura non è qualificata a Sedico (per esempio il caso di Lindberg)\n\n2.Se abbiamo scelto “Solo lenti” il sistema in base a cosa abbiamo selezionato può dirci:\n\nSe abbiamo fleggato montatura del cliente ci verrà sempre proposto Frame to Come in maniera cautelativa;\n\nSe abbiamo inserito UPC di un prodotto riconosciuto a Sedico, allora il sistema potrà proporre lavorazione di Lens Only\n\nVediamo adesso tutti i passaggi per inserire un ordine di un occhiale completo, cioè Frame + Lenti, si accede al Profilo Cliente:\n\nAssicurarsi di aver selezionato una prescrizione attiva per un difetto visivo per occhiale da vista (vedere capitolo 4.3). Una volta selezionata una prescrizione, questa sarà visibile in anteprima nel Profilo Cliente.",
+    "immagini": [
+      "data/images/image120.png",
+      "data/images/image89.png"
+    ]
+  },
+  {
+    "titolo": "Step 1: selezione montatura",
+    "contenuto": "La selezione della montatura può avvenire in diverse modalità:\n\nInserendo l’UPC di una montatura. È possibile scansionarlo con la fotocamera dell’iPad o il bar code reader. Selezionare Cerca Montatura o premere invio per visualizzare la selezione effettuata.\n\nRicercando per brand utilizzando il campo Marca e Codice Modello. È necessario sempre inserire prima il brand nel campo Marca dove a seconda delle lettere inizialmente inserite, il sistema suggerisce automaticamente in un menu a tendina i brand selezionabili. Dopodichè è necessario inserire il codice del modello nel campo Codice Modello (es. RB4147).  Selezionare Cerca Montatura o premere invio avviare la ricerca.\n\nIl risultato della ricerca è una lista di tutti gli articoli disponibili del brand selezionato. Dopo aver cliccato sulla riga della montatura d’interesse, posizionare il puntatore del mouse fuori dalla lista e scorrere verso il basso per visualizzare la selezione effettuata.\n\nSelezione da Smartshopper (solo su iPad). Cliccare su Avvia Smart Shopper e scegliere la montatura. Selezionare Aggiungi al carrello successivamente Vai al carrello ed in definitiva Ordina adesso. La montatura selezionata diventa così visibile su Ciao!\n\nViceversa, il flusso può partire da Smartshopper (vedere dettagli flusso da Smart Shopper nel capitolo 12)\n\nMontatura del Cliente: questa opzione verrà effettuata quando si presenta un caso di cambio lenti e si potrà effettuare una SOLO volta seguito il percorso di Solo Lenti.\n\nI campi obbligatori da compilare sono il prezzo di vendita (inserire il valore 0), la tipologia di occhiale (Oftalmico o Sole) e il fornitore (Marca). Selezionare sempre Montatura in Negozio sulla destra e cliccare su Continua.\n\nSe l’ordine è un Lens Only, selezionare Montatura del Cliente nel caso in cui la montatura sia di proprietà del cliente.\n\nDopo aver selezionato la montatura con una delle modalità viste sopra flaggare una delle seguenti opzioni:\n\nMontatura in negozio, opzione più utilizzata (è quindi possibile procedere con la presa misurazioni per qualsiasi tipo di difetto visivo)\n\nMontatura presente in negozio, ma di differente colore\n\nNessuna montatura disponibile per le misure. Selezionando questa opzione e cliccando su Continua esce un messaggio di errore e il sistema propone di selezionare una nuova montatura\n\nMontatura in negozio, Ordine Speciale (da non utilizzare)\n\nCliccare su Continua per procedere con la selezione delle lenti. Cliccare su Sospendere ordine per mettere in pausa la vendita. L’ordine viene salvato nella lista di ordini attivi dello store per 3 giorni, al termine dei quali potrà comunque essere recuperato dalla sezione Archivio entro 27 giorni.",
+    "immagini": [
+      "data/images/image122.png",
+      "data/images/image123.png",
+      "data/images/image124.png",
+      "data/images/image125.png",
+      "data/images/image126.png",
+      "data/images/image127.png",
+      "data/images/image128.png"
+    ]
+  },
+  {
+    "titolo": "Step 2: Selezione lenti oftalmiche",
+    "contenuto": "Lo step successivo è la selezione delle lenti oftalmiche che avviene con i seguenti step:\n\nSelezionare la tipologia di lente (Chiare, Sole o Transitions)\n\nIl campo Tipo di Visione è già precompilato con le alternative supportate dal tipo di prescrizione selezionata prima di iniziare il flusso d’ordine. Il tipo di prescrizione selezionato è visibile sotto la dicitura Seleziona Lenti. Nell’esempio riportato sotto la prescrizione selezionata è Visione Singola da Lontano e quindi nel campo Tipo di Visione viene automaticamente inserito Monofocale.\n\nSelezionare Design delle Lenti, Materiale, Trattamento e Colore. La possibilità di selezionare ognuno di questi campi si abilita una volta inserito il precedente.\n\nÈ possibile verificare le caratteristiche delle lenti selezionate attraverso i pacchetti lenti. Accedere al toolkit cliccando sull’icona del mappamondo in basso a sinistra e selezionare la cartella Listini nella prima pagina del toolkit. Aprire la cartella che contiene i listini d’interesse.\n\nSulla destra è presente una sezione di dettaglio delle caratteristiche delle lenti selezionate. Sotto questa sezione è presente la sezione dedicata agli add-on disponibili per il pacchetto lenti selezionato (servizi e lavorazioni aggiuntive). Selezionare sempre l’opzione Mounting nei componenti aggiuntivi.\n\nCliccare su Continua per accedere alla sezione riassuntiva dell’ordine. Anche in questo step è possibile cliccare su Sospendere ordine per salvare l’ordine nella lista ordini attivi.",
+    "immagini": [
+      "data/images/image129.png",
+      "data/images/image132.png",
+      "data/images/image130.png",
+      "data/images/image131.png",
+      "data/images/image133.png",
+      "data/images/image134.png",
+      "data/images/image135.png",
+      "data/images/image136.png",
+      "data/images/image139.png"
+    ]
+  },
+  {
+    "titolo": "Step 3",
+    "contenuto": "Il Modulo d’Ordine è la sezione di riepilogo di tutti i componenti dell’ordine che sono stati selezionati.\n\nSelezione garanziaSelezione garanziaSpecifiche di prodottoSpecifiche di prodotto\n\nSelezione garanzia\n\nSelezione garanzia\n\nSpecifiche di prodotto\n\nSpecifiche di prodotto\n\nAttiva la generazione del preventivo nella app dedicataAttiva la generazione del preventivo nella app dedicataOfferta propostaOfferta propostaMostra una preview dell’ordine Mostra una preview dell’ordine Salva l’ordine nella lista degli ordini in archivioSalva l’ordine nella lista degli ordini in archivioApplicazione sconti (es: sconto dipendenti)Applicazione sconti (es: sconto dipendenti)\n\nAttiva la generazione del preventivo nella app dedicata\n\nAttiva la generazione del preventivo nella app dedicata\n\nOfferta proposta\n\nOfferta proposta\n\nMostra una preview dell’ordine\n\nMostra una preview dell’ordine\n\nSalva l’ordine nella lista degli ordini in archivio\n\nSalva l’ordine nella lista degli ordini in archivio\n\nApplicazione sconti (es: sconto dipendenti)\n\nApplicazione sconti (es: sconto dipendenti)\n\nSospende l’ordine e salva nella lista degli ordini attiviSospende l’ordine e salva nella lista degli ordini attivi\n\nSospende l’ordine\n\ne salva nella lista\n\ndegli ordini attivi\n\nSospende l’ordine\n\ne salva nella lista\n\ndegli ordini attivi\n\nNella prima parte della sezione sono elencati gli elementi selezionati fino a quel punto: upc della montatura, upc del pacchetto lenti ed eventuali add on selezionati. Questa è la fase in cui effettuare un ultimo controllo per assicurarsi che il pacchetto lenti selezionato corrisponda a quello effettivamente d’interesse controllando che l’upc qui mostrato sia uguale a quello presente sul listino.\n\nIn questa sezione è possibile, inoltre:\n\nSelezionare la garanzia che si desidera vendere. Le garanzie sono selezionabili dal menù a tendina attivabile dal campo Garanzie.\n\nÈ importante selezionare la garanzia giusta, in quanto, il sistema non opera alcun controllo sulle garanzie. Per esempio, se si seleziona una garanzia Opticare 36 progressive ma le lenti sono monofocali, il sistema non evidenzia l’incongruenza.\n\nApplicare eventuali Promozioni o Sconti Dipendenti (per dettagli vedere Cap 12 del manuale)\n\nAttivare la generazione di un preventivo\n\nPer attivare la generazione di un preventivo cliccare su Preventivo e Salva in Archivio. In questo modo viene dato l’input ad una app esterna al sistema Ciao! per creare il preventivo e l’ordine viene salvato direttamente nella Lista Ordini in Archivio in modo che rimanga visibile per i successivi 27 giorni.\n\nPer visionare il preventivo e condividerlo con il cliente, accedere al Toolkit e selezionare l’app Preventivi. Le credenziali d’accesso da utilizzare sono quelle di MIM.\n\nCercare l’ordine attraverso il nome, cognome, e-mail del cliente o ID Ordine. L’ID ordine può essere recuperato da due punti del flusso di vendita:\n\nDalla sezione Modulo d’Ordine, cliccando su Rivedi Ordine\n\nDa Elenco ordini, selezionando Archivio e cliccando su Dettagli\n\nUna volta selezionato il preventivo, cliccare su Action e selezionare Preview per vedere in anteprima il pdf del documento.\n\nUna volta aperto il preventivo, selezionare Send per mandarlo via e-mail al cliente, Edit per modificare il preventivo e Print per stamparlo.\n\nNel momento in cui il cliente torna in negozio per completare il suo ordine, accedere alla Lista Ordini in Archivio e ricercare l’ordine attraverso la scansione del barcode presente sul preventivo o inserendo il cognome e nome del cliente. Cliccare su Sposta in Attivo, recuperare l’ordine nella Lista Ordini Attivi e selezionare Modifica. L’ordine viene quindi riaperto dallo step del Modulo d’Ordine.\n\nSe non si vuole stampare un preventivo, cliccare su Continua per proseguire con gli ultimi due step del flusso di ordine.",
+    "immagini": [
+      "data/images/image137.png",
+      "data/images/image138.png",
+      "data/images/image140.png",
+      "data/images/image141.png",
+      "data/images/image142.png",
+      "data/images/image143.png",
+      "data/images/image144.png",
+      "data/images/image145.png",
+      "data/images/image146.png",
+      "data/images/image147.png"
+    ]
+  },
+  {
+    "titolo": "Step 4: Presa misurazioni",
+    "contenuto": "Prima di procedere alla compilazione dei campi, assicurarsi di aver flaggato la casella Inizio Misurazione.\n\nSono presenti diverse modalità per l’inserimento dei dati delle misurazioni (nel caso in cui aveste iniziato il flusso da pc, salvare la vendita e recuperarla dall’iPad tramite la lista Ordini Attivi perché solo quest’ultimo è integrato con Accufit).\n\nImportazione dei parametri catturati attraverso Accufit: per aprire l’app Accufit selezionare il tasto Cattura e procedere alla presa dei parametri (solo su iPad) e salvare. In questo caso tutti i dati, eccetto quello sullo spessore delle lenti, sono automaticamente compilati in base alla montatura selezionata. Compilare i dati sullo spessore e indicare il motivo della misurazione manuale.\n\nImportazione dei parametri catturati attraverso torretta Varilux. Cliccare su Importa.\n\nInserimento manuale in caso di problemi di collegamento o misurazioni prese con Eyeruler (es: Varilux Physio). Anche in questo caso, indicare il motivo della misurazione manuale come mostrato in figura.\n\nPer tutte le misurazioni inserite il sistema effettua una validazione per verificare che i dati siano corretti. In caso di misurazioni non corrette il sistema segnala l’errore in rosso, suggerendo gli intervalli di valori corretti da inserire.\n\nPer il campo Spessore, selezionare sempre Normali.\n\nAlla fine della sezione è presente uno specchietto di riepilogo delle informazioni relative alla montatura. Tale specchietto si popola in automatico. In alcuni casi alcuni campi possono non essere compilati. È possibile compilarli oppure continuare lasciando i campi vuoti.\n\nCliccare su Continua per proseguire o su Sospendi ordine. È inoltre possibile verificare la correttezza dei dati inseriti cliccando su Rivedi Ordine.",
+    "immagini": [
+      "data/images/image148.png",
+      "data/images/image149.png",
+      "data/images/image150.png",
+      "data/images/image151.png",
+      "data/images/image152.png",
+      "data/images/image153.png",
+      "data/images/image154.png"
+    ]
+  },
+  {
+    "titolo": "Step 5: Completamento ordine su Ciao!",
+    "contenuto": "Come ultimo step del flusso il sistema effettua due verifiche: la disponibilità a magazzino Sedico dei prodotti selezionati e la fattibilità della combinazione montatura / lenti / misurazioni inserite.\n\nVi possono essere due tipi di pop-up:\n\nTipologia di ordine: se l’ordine è corretto questo pop-up indica il feedback della lavorazione che il sistema identifica, cioè se il job verrà realizzato come Complete job, Frame TO Come o Lens Only.\n\nSe abbiamo scelto all’inizio della creazione del WO Complete pair il sistema può darci 3 feedback diversi:\n\nComplete pair se c'è la disponibilità in laboratorio sia della montatura che delle lenti;\n\nLens only se servono solo le lenti dal lab e la montatura è già in negozio;\n\nFrame to Come se la montatura non è qualificata a Sedico (per esempio il caso di Lindberg)\n\nSe abbiamo scelto invece la voce Solo lenti il sistema in base a cosa abbiamo selezionato può dirci:\n\nSe abbiamo fleggato montatura del cliente ci verrà sempre proposto Frame to Come in maniera cautelativa;\n\nSe abbiamo inserito UPC di un prodotto riconosciuto a Sedico, allora il sistema potrà proporre lavorazione di Lens Only\n\nLe diciture che il sistema può riportare in questo campo sono le seguenti:\n\n1.Questa è una lavorazione one hour\n\n2.Questo ordine verrà gestito dal Laboratorio il giorno successivo\n\n3.Il sistema è offline, questo ordine dovrà essere inoltrato nuovamente a LPA\n\n4.Questo ordine è un Complete Pair gestito dal Laboratorio\n\n5.Questo ordine è un Frame to Come. Il Laboratorio necessita l'invio del frame da parte del negozio\n\n6.Questo ordine è un Lens Only con lavorazione one hour. Il Laboratorio spedisce solo le lenti non tagliate.\n\n7.Questo ordine è un Lens Only. Il Laboratorio spedisce solo le lenti.\n\n8.Questo ordine prevede delle lenti da fornitore terzo. No invio ordine a Sedico\n\nÈ quindi molto importante prestare attenzione alla dicitura che il sistema vi riporta nel quadrato sottostante, perché è una prima indicazione di quello che sarà il job type del WO che state creando.\n\nErrore: nel caso in cui il sistema riscontri degli errori di combinazione viene mostrato un alert che indica il tipo di errore (es: spessore lenti non compatibile con montatura selezionata; parametri scorretti inseriti per le misurazioni). I possibili messaggi:\n\nSe si comprende l’errore e si riesce a modificare correttamente l’ordine, procedere nel flusso. Altrimenti, se non si comprende l’errore o se non si riesce a risolverlo, contattare l’Help Desk Toshiba.\n\nNel caso in cui vi fosse stata una ricodifica di prodotto a listino e si selezionassero prodotti (es: lenti) con un vecchio codice questo è il punto in cui verrà segnalata l’eventuale scorrettezza della combinazione delle lenti / montatura.\n\nLa data di consegna prevista è la stessa di quella indicata su order tracker.\n\nL’ID vassoio è un campo utilizzato per facilitare l’identificazione di un ordine all’interno della lista ordini attivi e LPA.\n\nL’ID vassoio è utile nel caso in cui la vendita sia coperta da assicurazione. In questo caso, infatti, la trasmissione dell’ordine al laboratorio è sospesa previa approvazione da parte della compagnia assicurativa ed è necessario confermare su LPA l’invio dell’ordine una volta ricevuta l’approvazione. Per recuperare velocemente l’ordine sospeso è possibile utilizzare una convenzione tale per cui l’ID vassoio è nominato “ASS”. Una volta ricevuta l’approvazione sarà sufficiente recuperare da LPA l’ordine con ID vassoio “ASS” per inoltrarlo al laboratorio.\n\nSelezionare i tasti corrispondenti per:\n\nCaparra: raccogliere caparra per l’ordine (da 0 € al 100% del valore) se no caparra no registrato come WO generato\n\nSospendi ordine: per sospendere la transazione e recuperarla successivamente dalla lista di ordini attivi nel caso in cui fosse necessario\n\nContinua a fare acquisti: per lasciare al cliente il tempo di visionare altri prodotti ed eventualmente aggiungere all’acquisto altri elementi.\n\nPer ordini multipli usare questa opzione. Dopo aver cliccato su questa opzione, il sistema riporta alla schermata di inizio flusso in cui è possibil effettuare un nuovo ordine. Procedere con il nuovo ordine e cliccare su Salva Ordine per salvare il secondo ordine nella lista degli ordini attivi. Per completare il pagamento multipli andare sulla lista degli ordini attivi, selezionare gli ordini di interesse e cliccare su Procedi al Pagamento per ultimare il pagamento di entrambi gli ordini.\n\nSalvare l’ordine: per un secondo momento. L’ordine è salvato nella lista ordini attivi.\n\nProcedi al pagamento: Si procede al pagamento dell’importo totale.",
+    "immagini": [
+      "data/images/image155.png",
+      "data/images/image156.png",
+      "data/images/image157.emf",
+      "data/images/image158.png",
+      "data/images/image159.png",
+      "data/images/image162.png",
+      "data/images/image163.png",
+      "data/images/image160.png"
+    ]
+  },
+  {
+    "titolo": "Raccolta caparra",
+    "contenuto": "Si consiglia di prendere sempre una caparra (anche a valore zero) quando si inserisce un ordine in modo da avere l’ordine sempre disponibile nella Caparra. Gli ordini presenti nella lista Caparra, a differenza degli ordini presenti in lista ordini attivi o in archivio, non sono soggetti ad alcuna scadenza.\n\nLa raccolta della caparra può avvenire tramite due flussi:\n\nDalla pagina Completamento dell’Ordine: contestualmente al flusso di ordine, cliccando su Caparra come anticipato nel capitolo precedente\n\nDalla lista ordini attivi: recuperando l’ordine d’interesse dalla lista e cliccando su Caparra.\n\nCliccando su Caparra il sistema si connette a Xstore, dove avviene la raccolta della caparra.\n\nCliccare su Aggiunta Pagamenti. Se si sta effettuando il flusso su iPad, cliccare su Somma dovuta (per iPad non è disponibile l’opzione di pagamento Contanti).\n\nSelezionare il metodo di pagamento:\n\nSelezionare contanti per un pagamento in contanti. Il limite massimo accettato di pagamento in contanti è di 1999,99 euro\n\nSelezionare Assegno per incassare un assegno. Inserire nei dati richiesti 11 volte 1 e premere invio, poi reinserire solo una volta 1.\n\nSelezionare Bancomat / Carte di credito per pagare con questi metodi.\n\nNel caso in cui sia richiesta una firma è possibile raccoglierla su iPad.\n\nSelezionare Carte di Credito manuali per pagare con carte di credito o bancomat. Rispetto al metodo precedentemente descritto, qui è necessario indicare manualmente il tipo di carta scegliendolo dall’elenco. Inserire le ultime 4 cifre del numero della carta e la data di scadenza (formato: MMAA).\n\nSelezionare Assicurazioni e Abbonamenti per trovare l’elenco completo di questi ultimi\n\nSelezionare Voucher non integrati per utilizzare tutti i restanti metodi di pagamento (es: assicurazioni, abbonamenti, gift card, scorrendo in basso troverete XME PROTEZIONE che va a sostituire il metodo di pagamento provvisorio Best Shopping).\n\nUna volta selezionato il metodo di pagamento, inserire l’importo della caparra e cliccare su Invio.\n\nDopo aver premuto Invio per depositare la prima caparra, selezionare In attesa di pagamento.\n\nCliccando su In attesa di pagamento il sistema calcola e registra automaticamente l’importo restante da versare per saldare la vendita. Cliccare nuovamente su Invio. È necessario calcolare il saldo, solo al versamento della prima caparra, non per le eventuali caparre successive.\n\nUna volta cliccato su Invio, selezionare la modalità d’invio del documento caparra (stampa o e-mail). Cliccando su e-mail, il sistema recupera automaticamente la mail registrata del cliente. È in ogni caso possibile modificare la mail.\n\nDa qui è possibile decidere se stampare e inviare l’e-mail di conferma o se inviare solo l’e-mail.\n\nUna volta selezionato il metodo di condivisione della caparra, il sistema torna nella schermata arancione di Xstore. Accedere per tornare sulla Ricerca cliente.\n\nAl completamento del flusso vengono stampati tre documenti:\n\nDocumento di conformità (in doppia copia)\n\nQuesto documento è possibile ristamparlo andando su: Backoffice – Giornale – Giornale elettronico. Ricercare la transazione per la quale si desidera ristampare il documento di conformità, per facilitare la ricerca, inserire il cognome del cliente nel campo Cliente o Cognome\n\nPremendo su Conferma appariranno tutte le transazioni per quel cliente, selezionare la transazione di presa caparra e premere su Visualizza dettagli. È fondamentale selezionare la transazione di presa caparra altrimenti NON verrà visualizzato il tasto èer ristampare il documento di conformità.\n\nUna volta selezionata la transazione di presa caparra, cliccare su Statement of compliance Reprint e il documento di conformità verrà ristampato.\n\nTray ticket, assimilabile al Recap del WO in Acuitas. Questo documento può essere utilizzato per creare la bustina di consegna dell’occhiale.\n\nLab ticket, documento necessario per effettuare le tracciature\n\nIl tray ticket è composto da due sezioni:\n\nRecap dell’ordine: sezione sulla sinistra, contenente i dati utilizzati per fare un match all’arrivo del prodotto da Sedico. Sul Tray Ticket è possibile visualizzare l’ID Order.\n\nScheda controllo qualità: da non compilare\n\nL’ordine viene salvato nella lista Caparra. Se serve raccogliere un secondo deposito cliccare su Caparra.\n\nInserire l’importo del versamento successivo alla prima caparra nel box in alto e cliccare su Procedere al Pagamento per accedere a XStore e registrare l’importo.\n\nIl processo segue quanto visto per la raccolta prima caparra. In questo caso, l’unica differenza è che la somma netta da saldare è calcolata automaticamente e non è necessario cliccare su In attesa di Pagamento.",
+    "immagini": [
+      "data/images/image161.png",
+      "data/images/image164.png",
+      "data/images/image165.png",
+      "data/images/image166.png",
+      "data/images/image167.png",
+      "data/images/image170.png",
+      "data/images/image168.png",
+      "data/images/image169.png",
+      "data/images/image171.png",
+      "data/images/image172.png",
+      "data/images/image173.png",
+      "data/images/image174.png",
+      "data/images/image175.png",
+      "data/images/image176.png",
+      "data/images/image177.png",
+      "data/images/image178.png"
+    ]
+  },
+  {
+    "titolo": "Invio ordine al Laboratorio di Sedico",
+    "contenuto": "Come visto nel paragrafo 5.5 nella sezione Completamento d’ordine in Ciao! a seconda di cosa scegliamo, al termine della creazione del vostro WO su Ciao!, il sistema stesso da un feedback sulla lavorazione con cui quell'ordine verrà prodotto (job type)\n\nSe abbiamo scelto Complete pair il sistema può darci 3 feedback diversi:\n\nComplete pair se c'è la disponibilità in laboratorio sia della montatura che delle lenti;\n\nLens only se servono solo le lenti dal lab e la montatura è già in negozio;\n\nFrame to Come se la montatura non è qualificata a Sedico (per esempio il caso di Lindberg)\n\nSe abbiamo scelto Solo lenti il sistema in base a cosa abbiamo selezionato può dirci:\n\nSe abbiamo fleggato montatura del cliente ci verrà sempre proposto Frame to Come in maniera cautelativa;\n\nSe abbiamo inserito UPC di un prodotto riconosciuto a Sedico, allora il sistema potrà proporre lavorazione di Lens Only\n\nUna volta che l’ordine è stato    l’ordine a Sedico, poiché la trasmissione non è automatica.\n\nVediamo insieme la procedura per trasmettere l’ordine a seconda delle diverse casistiche:\n\nComplete pair: nel caso in cui il sistema vi proponga Complete pair da Ciao, basterà trasmetterlo cliccando qui\n\nSe il sistema propone Lens Only o Frame to Come avete la possibilità di modificarlo prima di trasmetterlo o lasciarlo così.\n\nSe NON volete la tipologia d'ordine che il sistema vi propone cosa bisogna fare?\n\nSe per esempio il sistema vi ha dato come feedback che l'ordine è un Frame to Come avete la possibilità di trasmetterlo come Lens Only. Gli step da effettuare sono i seguenti:\n\n1. Ricercare l’ordine in LPA e selezionarlo. Entrare nella sezione Edit Processing Type – Change Lab. Nella sezione Current Lab l’ordine sarà identificato come Outside Processing - Central Lab - Store Sends Frame\n\n2. Procedere a prendere la tracciatura\n\n3. Nella sezione Edit Lab, scegliere nel primo menù a tendina Outside_Processing e nel secondo menù a tendina scegliere il job type desiderato ossia Lens Only Cut and Edge. Flaggare la voce Send Trace.\n\n4. Nel caso in cui ci sia la voce Printer, selezionare la stampante e poi selezionare Continue. Nel giro di qualche secondo vedrete che l’ordine cambierà job type nella sezione Current Lab.\n\n5. Trasmettere l’ordine cliccando su questa icona",
+    "immagini": [
+      "data/images/image179.png",
+      "data/images/image180.jpeg",
+      "data/images/image181.png"
+    ]
+  },
+  {
+    "titolo": "Invio ordine al Laboratorio di Essilor",
+    "contenuto": "Una volta che l’ordine è stato inserito in Customer Order è necessario accedere a Opsysweb per gestire e trasmettere l’ordine al laboratorio di Essilor. Questo processo deve essere eseguito solo nel caso il cui il Work Order sia un Lens Only e per quelle lenti i cui ordini non devono essere inviati a Sedico.\n\nÈ importante premere sempre il tasto Opsysweb così da poter inviare il Work Order al laboratorio corretto.\n\nEffettuando l’accesso a LPA sarà possibile individuare questa tipologia di ordini perché in corrispondenza della colonna Type sarà possibile trovare “RX Sun Authentics”.",
+    "immagini": [
+      "data/images/image182.jpeg"
+    ]
+  },
+  {
+    "titolo": "Tracciatura",
+    "contenuto": "La tracciatura viene svolta se l’ordine è un Lens Only.\n\nUna volta terminato il flusso di creazione dell’ordine verrà emesso il Lab Ticket che servirà per il processo di tracciatura.\n\nRecarsi al tracer e premere il bottone 1 o 2 in base a quello che il tecnico il giorno del Go live vi ha settato, che permette la trasmissione dell’ordine al laboratorio di Sedico. Successivamente, eseguire la tracciatura e scannerizzare il Garber ID presente sul Lab Ticket ed eseguire la tracciatura della montatura.\n\nSuccessivamente accedere a LPA e selezionare l’ordine appena concluso. Selezionare l’icona per vedere il risultato della tracciatura appena eseguita.\n\nSe l’ordine che stiamo effettuando è un Frame to Came e vogliamo modificarlo in un Lens Only, dobbiamo cliccare su Back e selezionare Lab Processing Type e successivamente Change Lab nel menù delle opzioni.\n\nScegliere Outside_Processing tra le opzioni del menù a tendina associato alla voce Edit Lab e Lens_only_cut_and_edge tra le opzioni associate a Job Type.\n\nSuccessivamente flaggare Send Trace e cliccare Continue.  In questo modo avremo cambiato il nostro ordine in un Lens Only.\n\nSe invece il nostro ordine è già un Lens Only, non sarà necessario effettuare l’operazione appena descritta, ma basterà cliccare di nuovo l’icona.\n\nVerranno mostrate due schermate successive di riepilogo in cui è possibile continuare per confermare la tracciatura, eseguire nuovamente il processo di tracciatura o tornare Indietro per continuare a modificare.\n\nNel campo Edge Type è possibile selezionare il tipo di montature (se metallo o plastica). Selezionare Continue per due volte\n\nTrasmettere l’ordine a Sedico cliccando l’icona. Ancora una volta verrà proposta una schermata riepilogativa.\n\nUna volta trasmesso l’ordine lo Status dell’ordine passerà da Tendered a Trasmitted.\n\nNel caso in cui il WO fosse un Complete Pair, ma che alla fine del processo di creazione del WO Customer Order ci restituisce che è un lens only. (Frame non in Stock a Sedico) Sempre su LPA c'è la possibilità di trasmettere comunque l'ordine lens only (senza aver preso realmente la tracciatura della frame). In questo caso si riceveranno  le lenti sagomate correttamente.\n\nDurante la tracciatura è importante sapere quale voce selezionare in base alla tipologia di montatura che si sta tracciando:\n\nSe la montatura è standard, cioè NON rimless, basterà selezionare METAL e ZYL, come riportato nella tabella sottostante.\n\nSe la montatura è invece di tipo RIMLESS, sarà necessario selezionare anche le altre voci riportate in tabella.\n\nLPA\n\nDescription\n\nAcuitas\n\nMetal\n\nMetal Standard V\n\nBevel / Metal\n\nZyl\n\nPlastic Standard V\n\nBevel / Plastic\n\nGroove\n\nStandard Groove\n\nMTLGRV\n\nInline groove\n\nDrill\n\nDrill\n\nN.B. Nel caso in cui per momentanei off della stampante, i Lab Ticket non fossero stati stampati automaticamente alla creazione del WO, il nuovo link presente nel Toolkit Lab Ticket Reprint (terza pagina) ci permetterà di ristamparli per i due giorni antecedenti.\n\nPer farlo: accedere e sostituire la parte finale del link (evidenziata qui in rosso) con il numero dello store come appare nei WO (esempio store A062 inserirà 10062)\n\nhttp://instorelabs.luxgroup.net/ticket/<store_numbe>/ ->http://instorelabs.luxgroup.net/ticket/10062/",
+    "immagini": [
+      "data/images/image183.jpeg",
+      "data/images/image184.png",
+      "data/images/image185.png",
+      "data/images/image186.png",
+      "data/images/image187.png",
+      "data/images/image188.png",
+      "data/images/image12.png"
+    ]
+  },
+  {
+    "titolo": "Ricezione ordine Complete Job – FTC – Lens Only e consegna al cliente",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "7.1 Procedura di ispezione",
+    "contenuto": "Una volta ricevuto l’ordine in negozio, è necessario effettuare un’ispezione per verificare che la merce ricevuta non sia difettata.\n\nPer procedere con l’ispezione, accedere a LPA, ricercare l’ordine per cui si vuole registrare un’ispezione (gli ordini ricevuti in negozio sono in status “Received”), e selezionare Complete Order. Successivamente cliccare su Order Inspection. Compilare i seguenti campi:\n\nTime: selezionare data e ora dell’ispezione\n\nRetail final inspection by: selezionare chi ha effettuato ispezione in store. Il menù a tendina contiene già i nominativi del personale di store.\n\nSe l’ispezione va a buon fine, cliccare su Save in basso a sinistra.\n\nBrambilla, MatteoBrambilla, Matteo\n\nBrambilla, Matteo\n\nBrambilla, Matteo\n\nAlla ricezione del prodotto in negozio, nel caso in cui ci si accorgesse che l’ordine è sbagliato / prodotto è danneggiato, si consiglia di non compilare l’ispezione su LPA, ma di fare direttamente il remake selezionando l’icona del remake, in questo modo il numero d’ordine non cambia.\n\nDi conseguenza, si può compilare l’ispezione solo una volta che ci si è assicurati che l’ordine è corretto e in perfette condizioni.\n\nDiversamente da Acuitas, il processo di ispezione si svolge completamente su LPA.",
+    "immagini": [
+      "data/images/image189.png",
+      "data/images/image191.png",
+      "data/images/image190.png"
+    ]
+  },
+  {
+    "titolo": "Pagamento e consegna al cliente",
+    "contenuto": "Una volta effettuata l’ispezione, se questa va a buon fine, è possibile completare il pagamento e consegnare il prodotto al cliente. Il pagamento dell’ordine avviene su XStore.\n\nQuesto procedimento è utilizzato per tutti gli ordini per cui si è raccolta una caparra.\n\nDalla homepage di ricerca cliente cliccare sul tasto del menù in basso a sinistra e selezionare Elenco Ordini. Successivamente selezionare la lista Caparra.\n\nPer recuperare la vendita per completare il pagamento, ricercare per cliente o per numero ordine nella barra di ricerca sulla sinistra. Una volta trovato l’ordine, cliccare su Consegna.\n\nIl completamento del pagamento avviene su XStore. Prima di concludere il pagamento, richiedere la preparazione della fattura, la quale sarà inviata se il pagamento va a buon fine (da iPad si consiglia di fare sempre la fattura prima del completamento pagamento, dal momento che su iPad non è disponibile l’opzione di ristampa fattura descritta al capitolo 17). Cliccare su Stampare fattura o nota di accredito.\n\nSelezionare il tipo di fattura: normale o trasposta.\n\nCompilare con i dati del cliente, assicurandosi di aver inserito codice fiscale e codice identificativo. Per il codice identificativo inserire sette volte lo zero. I dati inseriti durante la creazione dell’anagrafica sono automaticamente recuperati dal sistema.\n\nCliccare su Ok.\n\nDopo aver registrato la fattura, cliccare su Aggiunta Pagamenti. Selezionare il metodo di pagamento tra quelli elencati e inserire l’importo del pagamento. Premere su Invio e selezionare il metodo di ricezione come visto nel capitolo 5.6.\n\nUna volta completato il pagamento viene fornita la possibilità di inserire il codice fiscale per lo scontrino fiscale.\n\nSe dopo aver selezionato Codice fiscale, il cliente non volesse inserire più il codice fiscale, è possibile selezionare Ometti per procedere.  Di conseguenza la transazione non apparirà nel report del sistema TS, anche nel caso in cui il tasto TS abbia il flag attivo.\n\nScegliere la modalità preferita per la ricezione dei documenti fiscali.\n\nUna volta scannerizzato il prodotto in cassa, per la consegna è generato lo scontrino, lo stato dell’ordine è aggiornato automaticamente su Order Tracker in status “Dispensed”, ovvero consegnato.\n\nÈ possibile selezionare la stampante più vicina alla postazione di vendita per la stampa. La stampante più vicina è selezionata di default, se questa non è disponibile, la stampante è selezionabile dalla lista di stampanti.\n\nN.B. Nella fase di consegna del WO al cliente c’è anche la possibilità di aggiungere un item nello scontrino.\n\nÈ infatti possibile aggiungere eventuali altri prodotti (prodotti da vendita veloce come occhiali da sole, spray, lac da banco etc) all’interno dello scontrino fiscale di un WO quando viene consegnato.\n\nPer farlo, procedere al normale flusso di vendita veloce da anagrafica cliente (tasto AFA Servizi) e salvare il prodotto nella Lista di ordini attivi selezionando la voce Completa l’ordine. Scegliere poi il WO da consegnare, selezionare Consegna.\n\nA questo punto apparirà un pop up, che potete vedere in figura, il quale mostra tutti i prodotti in status Pronto nella Lista ordini attivi riferiti a quel cliente. Selezionare cosa portare in scontrino e procedere.",
+    "immagini": [
+      "data/images/image177.png",
+      "data/images/image192.png",
+      "data/images/image193.png",
+      "data/images/image194.png",
+      "data/images/image195.png",
+      "data/images/image196.png",
+      "data/images/image197.png",
+      "data/images/image198.png"
+    ]
+  },
+  {
+    "titolo": "Vendita occhiali da sole",
+    "contenuto": "La vendita di occhiali da sole può avvenire tramite due modalità:\n\nSenza anagrafica: sempre tramite vendita veloce. Permette di vendere un prodotto senza raccogliere i dati del cliente. È consigliato effettuarla solo in casi eccezionali, essendo sempre preferibile creare un’anagrafica per ogni nuovo cliente.\n\nCon anagrafica: tramite sezione AFA/Servizi del Profilo Cliente. La vendita è soggetta all’esistenza di un profilo cliente, per cui si richiede la cattura dei dati nel caso di un nuovo cliente o l’accesso ad un profilo pre-esistente.",
+    "immagini": []
+  },
+  {
+    "titolo": "Vendita veloce (senza anagrafica)",
+    "contenuto": "Dopo aver effettuato l’accesso al sistema, cliccare sull’icona del menù in basso a sinistra e successivamente su Vendita Rapida. In questo caso la vendita è effettuata senza creare alcuna anagrafica cliente.\n\nInserire l’UPC del prodotto (manualmente o scannerizzando il barcode) e cliccare su Cerca Prodotto. Selezionare il prodotto e scegliere se proseguire con il pagamento cliccando su Vai al Pagamento o se salvare la transazione nella lista degli ordini attivi cliccando su Completa l’ordine.\n\nNel secondo caso verrà richiesto un ALIAS. L’ALIAS è l’identificativo con cui riconoscere e recuperare la transazione nella lista degli ordini attivi (contrariamente alle transazioni con cattura di dati del cliente, questa transazione non è associata ad alcun nominativo).\n\nInserire l’Alias cliente nella casella come mostrato in figura. Dalla lista di ordini attivi, selezionare la vendita cliccando sul tasto a sinistra. È possibile cancellarla, salvarla in archivio, visualizzare l’anteprima o procedere al pagamento cliccando su Vai a Pagamento.\n\nCliccando su Anteprima Prezzo Ordine Selezionato è anche possibile aggiungere garanzie e sconti e visualizzare maggiori dettagli.\n\nFlaggare Sist. TS affinché il sistema registri i dati di codice fiscaleFlaggare Sist. TS affinché il sistema registri i dati di codice fiscale\n\nFlaggare Sist. TS affinché il sistema registri i dati di codice fiscale\n\nFlaggare Sist. TS affinché il sistema registri i dati di codice fiscale\n\nCliccare nuovamente su Vai a Pagamento per concludere la vendita su XStore.",
+    "immagini": [
+      "data/images/image199.png",
+      "data/images/image202.png",
+      "data/images/image200.png",
+      "data/images/image201.png",
+      "data/images/image203.png",
+      "data/images/image204.png",
+      "data/images/image206.png",
+      "data/images/image207.png",
+      "data/images/image205.png",
+      "data/images/image208.png",
+      "data/images/image211.png",
+      "data/images/image212.png"
+    ]
+  },
+  {
+    "titolo": "Vendita con anagrafica",
+    "contenuto": "Dopo aver inserito i dati di un nuovo cliente o selezionato un cliente già presente in anagrafica, accedere al Profilo cliente e selezionare AFA/Servizi dal flusso di vendita in alto a destra.\n\nInserire l’UPC del prodotto (manualmente o scannerizzando il barcode) e cliccare su Cerca Prodotto. Selezionare il prodotto e scegliere se proseguire con il pagamento cliccando su Vai a Pagamento o se salvare la transazione nella lista degli ordini attivi cliccando su Completa l’ordine.\n\nNel primo caso, cliccando su Vai a Pagamento, si visualizza l’anteprima della vendita. Nella stessa schermata è inoltre possibile creare un preventivo cliccando su Preventivo o una caparra cliccando su Caparra.\n\nCliccare nuovamente su Vai a Pagamento per concludere la vendita su Xstore.\n\nNel secondo caso, cliccando su Completa l’ordine, la vendita risulta associata al cliente d’interesse ed è registrata in Lista ordini attivi. Come per la vendita senza anagrafica, da qui è possibile visualizzarne i dettagli, spostarla in archivio, cancellarla, visualizzare l’anteprima o completare il pagamento cliccando su Vai a Pagamento.",
+    "immagini": [
+      "data/images/image209.png",
+      "data/images/image210.png",
+      "data/images/image213.png",
+      "data/images/image214.png"
+    ]
+  },
+  {
+    "titolo": "Vendita lenti a contatto",
+    "contenuto": "La vendita di lenti a contatto può avvenire in tre modalità:\n\nSenza anagrafica: tramite vendita veloce. Permette di vendere un prodotto senza raccogliere i dati del cliente. È consigliato effettuarla solo in casi eccezionali, essendo sempre preferibile creare un’anagrafica per ogni nuovo cliente\n\nCon anagrafica cliente. Dal Profilo cliente, quindi con la cattura dei dati nel caso di un nuovo cliente o l’accesso ad un profilo pre-esistente:\n\nSezione AFA/Servizi (senza prescrizione)\n\nSezione Lenti a contatto (con prescrizione)\n\nPrima applicazione LAC e campioni",
+    "immagini": []
+  },
+  {
+    "titolo": "Vendita veloce senza anagrafica cliente",
+    "contenuto": "Questa vendita solitamente è effettuata quando il cliente non presenta particolari mix di difetti visivi (es: astigmatismo e miopia) che richiederebbero la creazione di un ordine specifico con tempi di consegna più lunghi. Questa modalità è solitamente utilizzata per i clienti che si recano in negozio e desiderano acquistare in modo rapido le lenti a contatto.\n\nDopo aver effettuato l’accesso al sistema, cliccare sull’icona del menù in basso a sinistra e successivamente su Vendita Rapida. In questo caso la vendita è effettuata senza creare alcuna anagrafica cliente.\n\nInserire l’UPC del prodotto (manualmente o scannerizzando il barcode) e cliccare su Cerca Prodotto. Selezionare il prodotto e cliccare su Vai a Pagamento per visualizzare l’anteprima del prezzo ed aggiungere eventuali sconti.\n\nCliccare nuovamente su Vai a Pagamento per concludere la vendita su Xstore secondo le modalità già descritte.\n\nSe si desidera sospendere momentaneamente la vendita salvandola nella lista di ordini attivi, cliccare su Completa Ordine per aggiungere l’alias cliente come già visto nel capitolo 8.1.",
+    "immagini": [
+      "data/images/image199.png",
+      "data/images/image215.png",
+      "data/images/image202.png",
+      "data/images/image216.png",
+      "data/images/image217.png",
+      "data/images/image218.png"
+    ]
+  },
+  {
+    "titolo": "Vendita con cattura anagrafica cliente",
+    "contenuto": "Nel caso di vendita con cattura di dati cliente, ma senza utilizzo di una prescrizione per lenti a contatto, accedere al Profilo Cliente e cliccare su AFA/Servizi.\n\nDa qui, i passaggi da seguire sono gli stessi evidenziati nel capitolo precedente. L’unica differenza è che in questo caso, salvando l’ordine nella lista di ordine attivi, la vendita non sarebbe più legata all’Alias, ma all’anagrafica del cliente.\n\nPer vendere lenti a contatto utilizzando una prescrizione e catturando i dati cliente, saranno necessari due step:\n\nCreazione della prescrizione o ricetta\n\nVendita delle lenti a contatto tramite il flusso di vendita “Lenti A Contatto”.\n\nAccedere al Profilo Cliente e aggiungere o selezionare una prescrizione per lenti a contatto cliccando su Gestisci Prescrizione.\n\nNel caso in cui non sia già presente una prescrizione o ricetta per lenti a contatto o vi fosse necessità di crearne una più aggiornata, cliccare su Aggiungi Prescrizione.\n\nDopo aver selezionato l’origine e il nominativo di chi ha prodotto la ricetta o prescrizione, selezionare il tipo di prescrizione (tra quelle per le lenti a contatto) dal campo Tipo di prescrizione.\n\nPer inserire una prescrizione per lenti a contatto generiche è necessario selezionare Lenti a contatto per Marca nel tipo di prescrizione. Successivamente è necessario inserire il campo Sfera e iniziare a digitare il nome nel campo Marca.\n\nDi seguito uno specchietto con l’indicazione del campo Marca per alcune delle lenti generiche che più si vendono.\n\nGEOMETRIA\n\nLINEA\n\nUpc\n\nMarca\n\nTorica\n\nFOCUS DAILIES PLUS TOR\n\n20500000794472\n\nFOCUS\n\nTorica\n\nOASYS 1 DAY FOR ASTIG 30P\n\n20500000797688\n\nACUVUE\n\nTorica\n\n1 DAY MOIST FOR ASTIG30PZ\n\n20500000797664\n\nACUVUE\n\nTorica\n\nGIORN EYE NEXT ASTIG\n\n20500001402635\n\nEYE NEXT\n\nTorica\n\nACUVUE OASYS FOR ASTIG6PZ\n\n20500000797671\n\nACUVUE\n\nTorica\n\nLE GIORNALIERE ADV AST30P\n\n20500000828887\n\nLE GIORNALIERE\n\nMultifocale\n\nTOTAL 1 MULTIFOCAL\n\n20500000828238\n\nDAILIES TOTAL 1 MF\n\nTorica\n\nBIOFINITY TORIC\n\n20500000797565\n\nBIOFINITY\n\nMultifocale\n\nTOTAL 1 MULTIFOCAL\n\n20500000828221\n\nDAILIES TOTAL 1 MF\n\nTorica\n\nLE MENSILI ADV ASTIGM\n\n20500000828900\n\nLE MENSILI\n\nInserire le specifiche mediche (Sfera, Cilindro, Asse, Curva Base, Diametro e Addizione) e indicare la marca e la gradazione. Solo per le “Lenti a contatto per marca”, a cui fa riferimento la foto sotto, è necessario selezionare la gradazione del pacchetto lenti a contatto dal menù a tendina. Infatti, tutte le lenti general assortment (non codificate puntualmente) ricadono in questa categoria.\n\nSpecifiche prescrizione o ricettaBrand LACMenù a tendina nel caso di “Lenti a contatto per marca”Specifiche prescrizione o ricettaBrand LACMenù a tendina nel caso di “Lenti a contatto per marca”\n\nSpecifiche prescrizione o ricetta\n\nBrand LAC\n\nMenù a tendina nel caso di “Lenti a contatto per marca”\n\nSpecifiche prescrizione o ricetta\n\nBrand LAC\n\nMenù a tendina nel caso di “Lenti a contatto per marca”\n\nCliccare su Continua e raccogliere i consensi privacy per i dati medici.\n\nIl rilascio di questi rispecchia quanto visto nel capitolo 3.3 per i consensi marketing raccolti via e-mail o stampa.\n\nCliccare nuovamente su Continua per completare la registrazione della ricetta o prescrizione. Questa è visibile nello storico delle prescrizioni del cliente.\n\nPer facilitare la comprensione della vendita delle lenti a contatto riportiamo un paio di esempi concreti.\n\nIl primo riguarda le lenti a contatto con codice specifico a livello di potere (lenti a contatto sferiche e alcune multifocali come ad esempio le Moist)\n\nDopo averle selezionate vi comparirà la schermata dei valori da compilare sono obbligatori per avviare la ricerca: POTERE, CURVA BASE E DIAMETRO + ADDIZIONE nei casi delle multifocali.\n\nUna volta compilata vi comparirà una tendina con già con le lenti disponibili per questi parametri.\n\nUna volta completato l'ordine non sarà necessario ricrearlo anche su MIM, l’operazione sarà sutomatica.\n\nIl secondo tipo di lenti che vogliamo analizzare sono le lenti a contatto con codice generico (la quasi totalità delle lenti multifocali e toriche)\n\nIl minimo indispensabile per avviare la ricerca è compilare la SFERA, ovviamente è possibile compilare tutti i restanti campi per affinare la ricerca.  In questo caso non comparirà il menù a tendina, sarà vostro compito scrivere l'inizio del nome della marca.\n\nNel caso di dubbi su cosa inserire nella voce marca, si consiglia di fare fare riferimento alla stessa dicitura di MIM nella seconda tendina di ricerca delle lenti a contatto.  Importante è ricordare che in questo caso l'ordine NON parte in automatico ma va poi creato in MIM.\n\nContinuando con il flusso, selezionare e cliccare Seleziona Prescrizione per renderla attiva e utilizzabile per la vendita.\n\nDal Profilo Cliente, cliccare su Lenti a contatto.\n\nNella pagina Lenti a contatto selezionare la quantità di pacchetti in stock e le modalità di spedizione (Rapida o Standard) per i pacchetti non presenti in stock. Indicare dove spedire il prodotto (Indirizzo primario o secondario del cliente, oppure in negozio). Selezionando “Cliente – Principale” per la spedizione, i dati saranno automaticamente compilati con i dati inseriti durante la fase di creazione dell’anagrafica.\n\nCliccare su Continua per accedere al Modulo d’Ordine o su Sospendere l’Ordine. Per tutte le lenti a contatto registrate puntualmente (non general assortment), l’ordine in Ciao! genera l’ordine in MIM per fare il calco.\n\nQuantità in stockQuantità da ordinareLuogo dove spedireModalità spedizioneQuantità in stockQuantità da ordinareLuogo dove spedireModalità spedizione\n\nQuantità in stock\n\nQuantità da ordinare\n\nLuogo dove spedire\n\nModalità spedizione\n\nQuantità in stock\n\nQuantità da ordinare\n\nLuogo dove spedire\n\nModalità spedizione\n\nQuantità in stock va SEMPRE completata con 0\n\nNella pagina Modulo D’ordine è possibile inserire eventuali sconti e procedere al pagamento su Xstore. Alternativamente, è possibile stampare o inviare via e-mail il preventivo (tasti Stampa), Sospendere l’ordine, Continuare a fare acquisti o salvare l’ordine nell’archivio.\n\nPer la consegna delle lenti a contatto si segue la procedura di consegna vista per il complete pair al capitolo 7.1.\n\nQualora si procedesse alla raccolta della caparra per l’acquisto lenti sia in vendita veloce (vedere capitolo 9.1) sia per la vendita con anagrafica (vedere capitolo 9.2), verrà emesso ed inviato solo lo scontrino non fiscale (documento gestionale).",
+    "immagini": [
+      "data/images/image219.png",
+      "data/images/image209.png",
+      "data/images/image220.png",
+      "data/images/image221.png",
+      "data/images/image222.png",
+      "data/images/image224.png",
+      "data/images/image223.png",
+      "data/images/image225.png",
+      "data/images/image228.png",
+      "data/images/image229.png",
+      "data/images/image226.png",
+      "data/images/image227.png",
+      "data/images/image230.png",
+      "data/images/image231.png",
+      "data/images/image232.png",
+      "data/images/image233.png",
+      "data/images/image235.png",
+      "data/images/image234.png",
+      "data/images/image236.png",
+      "data/images/image239.png",
+      "data/images/image240.png"
+    ]
+  },
+  {
+    "titolo": "Registrazione prima applicazione LAC e campioni",
+    "contenuto": "La scheda per la prima applicazione LAC è digitale ed è memorizzata nel sistema di cassa.\n\nLa scheda è integrata nel flusso di creazione della prescrizione. Aggiungendo una nuova prescrizione, cliccare su Campioni lenti nel campo Tipo di prescrizione.\n\nIn seguito a questa selezione, nella stessa pagina si rendono disponibili tre sezioni: General, Contact Lenses Details e Feedback. Queste sezioni sono integrate nella prescrizione e utilizzate per raccogliere tutte le informazioni legate alla prima applicazione lenti a contatto del cliente.\n\nNella sezione “Feedback” andranno inserite le informazioni a seguito della prova di prima applicazione LAC effettuata dal cliente.\n\nCliccando su Continua, è richiesto il consenso privacy per i dati medici. È prevista la sola modalità di stampa.\n\nSelezionare la prescrizione e cliccare sulla sezione Lenti A Contatto posto all’interno del profilo Cliente.\n\nProcedere, inserendo le quantità desiderate e cliccare su Continua.\n\nSuccessivamente, cliccare su Procedi Al Pagamento (con importo pari 0,00 €)\n\nUna volta entrati su Xstore, cliccare su Transazione Completata e selezionare il metodo di ricezione (e-mail o solo stampa).\n\nTerminato il processo di transazione, in base alla modalità di ricezione documenti, il sistema erogherà la seguente documentazione:\n\nDocumento gestionale (NON fiscale): da consegnare al cliente\n\nTray ticket",
+    "immagini": [
+      "data/images/image237.png",
+      "data/images/image242.png",
+      "data/images/image238.png",
+      "data/images/image241.png",
+      "data/images/image243.png",
+      "data/images/image244.png",
+      "data/images/image245.png"
+    ]
+  },
+  {
+    "titolo": "Vendita accessori, ricambi e servizi",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "Vendita accessori",
+    "contenuto": "Seguire procedura di vendita rapida con sole e lenti (capitoli 8 e 8).",
+    "immagini": []
+  },
+  {
+    "titolo": "Vendita ricambi e servizi",
+    "contenuto": "Per procedere alla vendita di un servizio o di un ricambio il processo è il seguente:\n\nEntrare in Afa/Servizi,\n\ninserisce l'UPC del prodotto, selezionarlo per inserirlo nel carrello.\n\nuna volta inserito il prodotto nel proprio carrello, prima di procedere al flusso di presa caparra, flaggare la dicitura ORDINE SPECIALE.\n\npremere Vai a pagamento, compare Anteprima prezzo, a questo punto procedere con il ritiro della caparra\n\nImportante è flaggare sempre sula tasto Ordine speciale in modo che il sistema crei automaticamente il PO in MIM per il carico merce. Senza aprire il GLPI a Store Supporto per la creazione di quest' ultimo.\n\nCliccare su Caparra e selezionare Aggiunta pagamenti nel menù in basso a destra e successivamente la modalità ‘in attesa di pagamento’ (caparra a 0). In questo modo sarà possibile trovare l’ordine nella lista caparra (come AFA).\n\nNel caso in cui i pezzi di ricambio fossero più di uno, consigliamo di fare caparra su 1 ricambio e tenere il secondo pezzo in pagamento alla consegna definitiva al cliente.\n\nMolto importante è conservare lo scontrino caparra relativo ai ricambi, in modo da poter tracciare l’ordine, che ritroverai facilmente in elenco ordini caparra.\n\nTale scontrino non deve essere consegnato al cliente ma conservato dal negozio per poi poter associare il pezzo con il nome del cliente.\n\nQuando si opta per il deposito di una caparra, procedere all’emissione del documento sia per e-mail che per stampa, selezionando e-mail e Stampa. La copia stampata sarà conservata dal negozio per associare il nome del cliente non appena il pezzo nuovo sarà disponibile in store. Questa procedura è essenziale al fine di poter monitorare l’ordine e quindi per la consegna dell’articolo.",
+    "immagini": [
+      "data/images/image246.png",
+      "data/images/image247.png",
+      "data/images/image248.png",
+      "data/images/image249.png",
+      "data/images/image250.png",
+      "data/images/image251.png",
+      "data/images/image252.png"
+    ]
+  },
+  {
+    "titolo": "Vendita Gift card",
+    "contenuto": "A differenza di tutte le altre vendite, le Gift Card sono l’unico item che dobbiamo vendere direttamente in Xstore senza l’associazione dell’anagrafica cliente\n\nDalla schermata di Customer Order, tornare ad XStore selezionando la freccia blu (da pc) o aprendo menù a tendina in basso a sinistra e selezionando Vai a Xstore (da iPad)\n\nNella schermata blu di Xstore, inserire l’UPC della gift card nello spazio in basso a sinistra e selezionare Invio\n\nDopo aver inserito l’UPC inserire sempre nella barra in basso a sinistra il codice numerico della Gift Card (già in precedenza attivata sul portale Amilon come da attuale proceduta) e selezionare Invio\n\nProcedere a pagamento",
+    "immagini": [
+      "data/images/image253.png",
+      "data/images/image254.png",
+      "data/images/image255.png",
+      "data/images/image256.png"
+    ]
+  },
+  {
+    "titolo": "One hour Lenses",
+    "contenuto": "Le lenti one hour sono una tipologia di lenti che non richiede l’attività del laboratorio ma che viene eseguita direttamente in store. Per procedere alla selezione delle lenti one hour, eseguire un ordine ‘Complete pair’ o ‘lens only’ e selezionare una tipologia di lente one hour. Si visualizzerà nel commento di recap ordine la dicitura ‘Questa è una lavorazione One Hour’ e si potrà inserire la tempistica di ritiro.\n\nUna volta completato l’ordine su Customer Order si potrà accedere a LPA per gestire/ricercare l’ordine one hour. Per effettuare la ricerca selezionare Order Number e inserire il numero d’ordine. Questo particolare tipo di ordine non dovrà essere inviato al laboratorio e quindi lo stato non dovrà essere Transmitted, ma Tendered fino a quando non verrà consegnato.\n\nAttraverso il menù Edit Order Ticket è possibile cambiare l’OPC selezionando dal menù a tendina, in corrispondenza della voce Ticket Source, Manual_OPC. Ticket Source di default è sempre impostato su System_OPC.",
+    "immagini": [
+      "data/images/image257.png",
+      "data/images/image258.png",
+      "data/images/image259.png"
+    ]
+  },
+  {
+    "titolo": "Vendita da Smart Shopper",
+    "contenuto": "Per effettuare un ordine partendo da SmartShopper cliccare sull’icona di SmartShopper. Una volta selezionata la montatura cliccare su Aggiungi al carrello e successivamente su Vai al carrello e Ordina adesso.\n\nSelezionare Consegna in negozio se si vuole spedire l’ordine in negozio o Consegna a casa per spedirlo direttamente a casa del cliente (in questo ultimo caso bisognerà inserire anche le Informazioni per la spedizione).  Procedere con l’inserimento delle informazioni personali e cliccare su Conferma le informazioni e Chiudi.\n\nDopo aver completato l’ordine su SmartShopper tornare su Ciao! Optical, l’ordine appena concluso si trova nella lista degli Ordini Attivi. Dopo aver selezionato l’ordine cliccare su Modifica e continuare la procedura di raccolta ordine come descritto sopra. Al momento del pagamento, se l’anagrafica del cliente è già stata registrata l’e-mail viene riconosciuta e compare di default.\n\nCliccando sull’icona di Order Tracker presente nel Toolkit, cercare l’ordine inserendo il codice ordine o il nome del cliente. L’ordine appare come Confirmed. Una volta cliccato sull’ordine appare una schermata con i dettagli dell’ordine. Se precedentemente su SmartShopper è stata selezionata l’opzione Consegna in negozio, alla voce Ship to sarà presente Store. Al contrario, se è stata selezionata l’opzione Consegna a casa, sarà presente Alternate.",
+    "immagini": [
+      "data/images/image260.png",
+      "data/images/image261.png",
+      "data/images/image262.png",
+      "data/images/image263.png",
+      "data/images/image264.png",
+      "data/images/image265.png",
+      "data/images/image266.png",
+      "data/images/image267.png"
+    ]
+  },
+  {
+    "titolo": "Tracking ordine",
+    "contenuto": "Tutti gli ordini effettuati con Smart Shopper sono monitorabili in Order Tracker. In particolare:\n\nAuthomatic Dispensed, dopo avere cliccato su Dispensed l’ordine scompare su Order Tracker.\n\nOrdini di sola montatura (occhiale da sole o montatura da vista) à l’ordine è visibile nella sezione PRODUCT TO COME di Order Tracker. È possibile controllare l’ordine fino al momento in cui viene dato in gestione al corriere.\n\nQuindi dopo il cambio di stato in Shipped non si potrà vedere più il tracking del corriere.\n\nOrdini di lenti a contatto integrati (su Vision Direct).\n\nOrdini di occhiali completi la cui montatura è stata selezionata da Smart Shopper (nuova funzionalità disponibile grazie a Ciao! Optical) à l’ordine è visibile nella sezione OPEN ORDERS come avviene attualmente per tutti i work order.",
+    "immagini": []
+  },
+  {
+    "titolo": "Gestione promozioni",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "Promozioni automatiche",
+    "contenuto": "Come anticipato nel capitolo 5.3, nel Modulo d’Ordine sono visibili le promozioni automatiche applicate all’ordine.\n\nLe promozioni automatiche sono applicate direttamente dal sistema che propone la scontistica attiva più vantaggiosa per il cliente in base ai prodotti selezionati nell’ordine.\n\nAd esempio, se l’occhiale acquistato dal cliente rientra nell’offerta occhiale completo questa promozione prevale sempre rispetto al discrezionale 5%.\n\nNel caso in cui sia necessario non applicare la promozione che il sistema automaticamente propone selezionare Rimuovi Promozione.",
+    "immagini": [
+      "data/images/image268.png",
+      "data/images/image269.png"
+    ]
+  },
+  {
+    "titolo": "Promozioni dipendenti",
+    "contenuto": "Nel Modulo d’Ordine è possibile applicare all’ordine anche le promozioni e gli sconti riservati ai dipendenti. Nel caso in cui sia necessario applicare lo sconto riservato a un dipendente selezionare Sconti Dipendenti e inserire il relativo ID del dipendente nella finestra ID Associato e cliccare su Conferma.\n\nDopo aver inserito l’ID del dipendente la promozione verrà applicata in automatico. Nel caso in cui sia necessario non applicare la promozione che il sistema automaticamente propone selezionare Rimuovi Promozione.\n\nNel caso in cui il plafond sia stato superato non sarà possibile portare a termine la transazione in quanto verrà restituito un messaggio di errore.",
+    "immagini": [
+      "data/images/image270.png",
+      "data/images/image269.png",
+      "data/images/image271.png",
+      "data/images/image272.png"
+    ]
+  },
+  {
+    "titolo": "13.3 Promozioni manuali e sconti discrezionali",
+    "contenuto": "Gli sconti manuali e discrezionali (con causale o generici a % o valore) possono essere gestibili da:\n\nXStore\n\nCustomer Order\n\nDa Xstore, selezionare la vendita e successivamente selezionare Aggiungere sconto. Inserire il codice per lo sconto e successivamente la percentuale o l’importo in valore da stornare dal totale nella schermata specifica alla tipologia di sconto (Enter Amount e Enter Percentage). Fondamentale è ricordarsi che questa tipologia di sconti va inserita due volte, al momento della presa caparra e al momento della consegna.\n\nDa Customer Order, nel Modulo d’Ordine, selezionare Applica Codice Offerta. Inserire il codice promozionale manualmente oppure scannerizzare il barcode relativo all’offerta presente nel Booklet sul ToolKit e selezionare Applica Codice Offerta.",
+    "immagini": [
+      "data/images/image273.png",
+      "data/images/image274.png",
+      "data/images/image277.png",
+      "data/images/image278.png",
+      "data/images/image275.png",
+      "data/images/image276.png"
+    ]
+  },
+  {
+    "titolo": "13.4 Promozioni con barcode",
+    "contenuto": "Oltre alle promozioni automatiche, nella sezione Modulo d’Ordine possono essere inserite promozioni tramite scansione di barcode o inserimento di codice manuale selezionando Applica Codice Offerta.",
+    "immagini": [
+      "data/images/image275.png",
+      "data/images/image276.png"
+    ]
+  },
+  {
+    "titolo": "13.5 Automatic Couponing",
+    "contenuto": "Nel caso dell’automatic couponing, il sistema verifica automaticamente quali transazioni sono elegibili per dare diritto ad uno sconto su un acquisto futuro, in caso di promo automatic couponing attiva. Ad esempio, acquistando un complete pair il sistema genera un coupon per un successivo occhiale completo con uno sconto del 50%.\n\nIl coupon viene inviato al cliente insieme alla copia dello scontrino non fiscale alla fine della transazione se richiesto vi email. In ogni caso una copia verrà stampata insieme allo scontrino fiscale relativo alla transazione.\n\nPer utilizzare il coupon e applicare lo sconto bisogna scansionare il barcode nella sezione Modulo D’Ordine nel flusso di creazione ordine, verificandone:\n\nLa scadenza\n\nL’idoneità dei prodotti nel carrello per quel determinato coupon\n\nUtilizzo precedente (in questo caso decade il diritto allo sconto)",
+    "immagini": [
+      "data/images/image279.png",
+      "data/images/image275.png",
+      "data/images/image276.png"
+    ]
+  },
+  {
+    "titolo": "13.6 Applicazione sconti assicurazioni, convenzioni e abbonamenti",
+    "contenuto": "Sempre nella sezione Modulo D’Ordine è possibile anche applicare gli sconti per le assicurazioni e gli abbonamenti in maniera corretta, in particolare:\n\nPer gli Abbonamenti, scaricando il barcode dal sito di Zuora e mettendolo, sarà possibile applicare il prezzo corretto\n\nPer le Assicurazioni / convenzioni, per applicare lo sconto sarà necessario utilizzare i codici presenti nella seconda e terza pagina del documento caricato nel Tool Kit nella app Listini chiamato Ciao! ASSICURAZIONI – CONVENZIONI. Sparando questo codice, sarà automaticamente il sistema ad applicare la promozione corretta a seconda degli item selezionati. Per permettere la corretta applicazione, la voce Assicurazione nell’anagrafica cliente deve essere compilata in modo coerente.",
+    "immagini": []
+  },
+  {
+    "titolo": "13.7 Garanzie",
+    "contenuto": "Vi sono due flussi per l’aggiunta delle garanzie all’ordine dalla pagina Modulo d’ordine:\n\nComplete Pair: dopo la selezione della montatura e delle lenti come mostrato in foto\n\nMontatura per occhiale da sole: dopo la selezione della montatura partendo da AFA/Servizi\n\nDal Modulo d’Ordine selezionare la garanzia dal campo Garanzia scegliendo tra le opzioni visibile dal menù a tendina. Una volta selezionata la garanzia questa figura come elemento aggiuntivo nel Modulo d’ordine.\n\nLa garanzia viene inviata al cliente in un’e-mail separata rispetto a quella in cui è presente la copia dello scontrino non fiscale relativo alla transazione. In alternativa è sempre possibile stamparla.\n\nSe il cliente volesse beneficiare di uno dei vantaggi della garanzia è necessario creare il nuovo WO relativo al prodotto desiderato e scansionare il barcode nella sezione Modulo D’Ordine nel flusso di creazione ordine, verificandone:\n\nLa validità della garanzia\n\nL’intestatario della stessa\n\nLe tipologie di garanzie acquistabili sono due, quelle acquistabili negli store Salmoiraghi & Viganò e quelle acquistabili negli store Ray-Ban.\n\nLe garanzie Salmoiraghi & Viganò sono:\n\nOPTICARE 12\n\nOPTICARE 36\n\nRAY BAN SUN CARD\n\nSENZA PENSIERI &TE\n\nOPTICARE MINI\n\nSENZA PENSIERI &TE MINI\n\nOPTICARE SOLE LUXURY\n\nOPTICARE 36 PROGRESSIVE\n\nOPTICARE SOLE\n\nLe garanzie Ray-Ban sono:\n\nRAY-BAN PREMIUM VISTA ADULTO\n\nRAY-BAN PREMIUM SOLE\n\nRAY-BAN STANDARD VISTA ADULTO\n\nRAY-BAN STANDARD VISTA KIDS\n\nRAY-BAN PREMIUM VISTA KIDS\n\nRAY-BAN STANDARD SOLE ADULTO\n\nRAY-BAN STANDARD SOLE KIDS",
+    "immagini": [
+      "data/images/image280.png",
+      "data/images/image281.png",
+      "data/images/image282.png",
+      "data/images/image283.png"
+    ]
+  },
+  {
+    "titolo": "14 Gestione servizi post-vendita",
+    "contenuto": "Le procedure di reso e scambio è preferibile effettuarle da PC di cassa o banchetto.",
+    "immagini": []
+  },
+  {
+    "titolo": "14.1 Reso caparra",
+    "contenuto": "Accedere all’ Elenco ordini e successivamente alla lista caparra. Eseguire la ricerca dell’ordine con caparra, cliccare “Torna” ed inserire la ragione di reso.\n\nInserire la Ragione di Reso in merito a tale richiesta.\n\nUna volta passati in Xstore verrà richiesto di aggiungere una nota. Dopodiché, cliccare OK per proseguire.\n\nSarà il sistema stesso a proporvi cosa rendere in contanti e cosa verrà tolto automaticamente da In attesa di pagamento.\n\nSarà il sistema stesso a ricordare la quantità della caparra inserita.\n\nProcedendo con la scelta del metodo di pagamento il sistema vi propone la somma di reso corretta, cioè la caparra per quel specifico WO.\n\nGIOVA OSSERVARE CHE: qualora si voglia eseguire un reso per un errore/modifica nel WO che non abbia comportato un reale pagamento, si andrà a selezionare In attesa di pagamento per l’intera cifra.\n\nEsempio: Viene eseguito un ordine di 329 euro e pagata una caparra di 29. Qualora si volesse rendere, andremo a selezionare Lista Caparre, cercheremo l’ordine, selezioneremo Torna, inseriremo una Nota in Xstore e selezioneremo Aggiunta Pagamenti.\n\nSelezioniamo la modalità Contanti ed inseriremo manualmente la cifra di 29 euro, per i restanti 300 euro andremo a selezionare la modalità ‘In attesa di pagamento’.\n\nQualora si voglia eseguire un reso per un errore/modifica del WO che non abbia comportato un reale pagamento, si andrà a selezionare ‘In attesa di pagamento’ per l’intera cifra.",
+    "immagini": [
+      "data/images/image284.png",
+      "data/images/image285.png",
+      "data/images/image286.png",
+      "data/images/image287.png"
+    ]
+  },
+  {
+    "titolo": "14.2 Incamera caparra",
+    "contenuto": "Nella lista Caparra sono presenti gli ordini per i quali è stata presa caparra.\n\nAl fine di incamerare la caparra per un ordine che ha superato i due mesi e dopo le relative comunicazioni, selezionare il tasto Converti per incassare la caparra.\n\nSuccessivamente si aprirà in XStore dove dovrà essere inserita una nota.\n\nDopo aver selezionato Transazione completata (dove in automatico viene rappresentato il valore che deve essere incamerato), verranno emessi due scontrini non fiscali. (selezionare solo stampa, non e-mail altrimenti viene ricevuta dal cliente).",
+    "immagini": [
+      "data/images/image214.png",
+      "data/images/image288.png",
+      "data/images/image289.png"
+    ]
+  },
+  {
+    "titolo": "14.3 Reso cliente con vendita effettuata su Ciao!",
+    "contenuto": "Per effettuare un reso cliente seguire i seguenti passaggi:\n\nAccedere alla sezione Ricerca Cliente e ricercare il cliente d’interesse con le modalità viste al capitolo 3.1.\n\nAccedere al suo Profilo Cliente\n\nSelezionare Storico ordini e ricercare l’ordine.  In questa sezione verranno mostrate automaticamente le vendite dalla più recente alla meno recente.\n\nCliccare su Rendi in corrispondenza dell’ordine d’interesse. Per vedere meglio le specifiche dell'ordine, selezionare Dettagli ordine.\n\nÈ possibile procedere al reso di più articoli selezionabili dallo storico ordini del profilo clienti (Ad esempio se si tratta di un frame only ed un lens only, oppure un accessorio ed un frame only, ecc…)\n\nLa richiesta multipla di reso non può essere effettuata nel caso di Complete Pair.\n\nSelezionare la motivazione del reso tra quelle proposte nel menù a tendina, a seconda che si tratti di un reso gestionale o un reso denaro ci saranno delle causali specifiche. La voce Modifica WO serve per le modifiche gestionali (ristampa fattura cambiando indirizzo, aggiunta garanzia..)\n\nCliccare su Vai a pagamento per procedere alla conclusione del reso in Xstore. In alternativa, cliccare su Conferma Richiesta per salvare l’ordine nella lista di ordini attivi. Gli articoli per cui si è avviata una procedura di reso, senza concluderla, figurano in Stato In Reso\n\nUna volta selezionato Vai A Pagamento, su Xstore, viene richiesta l’aggiunta di una nota, inserirla e cliccare su Ok. In alternativa è possibile scannerizzare da iPad selezionando Cattura ID Scontrino (da ricerca su Customer Order), per catturare il barcode. Il sistema mostra all’interno dei Risultati Ricerca il cliente desiderato. Dalla sezione Storico Ordini del profilo cliente, cliccare su Rendi, oppure, è anche possibile spuntare la check-box dell’ordine e successivamente cliccare su Rendere Ordini Selezionati.\n\nSelezionare Aggiunta Pagamenti. Successivamente selezionare la modalità di rimborso:\n\nContanti: reso in contanti\n\nBonifico da sede: bonifico da parte del team GBS a seguito di un’apertura di GLPI.\n\nLa procedura di reso con rimborso tramite bonifico va richiesta soltanto in casi eccezionali per i quali non sussista altra soluzione se non un pagamento da sede.\n\nI casi accettati sono resi a clienti residenti all’estero impossibilitati a recarsi in negozio, resi di importi superiori al limite di trasferimento denaro contante, resi a Findomestic per annullamento pratica.\n\nNon sono ammesse richieste di bonifico:\n\n•  per importo inferiore al valore del fondo cassa o in presenza di contante in cassaforte superiore al valore del reso (per rimborsare il cliente si possono utilizzare sia i contanti presenti nel fondo cassa, sia i contanti in cassaforte in attesa di essere versati;\n\n•  per clienti che non vogliono tornare in store perché di altre città (è possibile fare i resi in un qualunque store della catena\n\nGli articoli resi sono visualizzati in rosso.\n\nSelezionare un metodo di ricezione per i documenti di reso.\n\nAl termine dell’operazione di reso, il sistema dovrà erogare la seguente documentazione:\n\nReso fiscale (nota di credito)\n\nPratica di reso non fiscale in doppia copia, una che va fatta firmare al cliente e si tiene in negozio, l’altra che si consegna al cliente.",
+    "immagini": [
+      "data/images/image290.png",
+      "data/images/image293.png",
+      "data/images/image291.png",
+      "data/images/image292.png",
+      "data/images/image294.png",
+      "data/images/image295.png",
+      "data/images/image296.png",
+      "data/images/image297.png",
+      "data/images/image298.png",
+      "data/images/image299.png",
+      "data/images/image300.png",
+      "data/images/image301.png"
+    ]
+  },
+  {
+    "titolo": "14.4 Cancellazione Ordine di Reso",
+    "contenuto": "Su Xstore nella sezione pagamento è possibile annullare l’operazione di reso, cliccando su Cancellazione Vendita.\n\nPer procedere alla cancellazione di un’operazione di reso non portata a termine, cliccare su Elenco Ordini. Nella sezione attivi, ricercare per Numero Ordine o Nome Cliente, l’ordine in questione risulterà In Reso.\n\nSelezionare l’ordine da rendere e cliccare su Cancella Ordine Selezionato.\n\nCliccare su Si per cancellare l’ordine selezionato.\n\nL’ordine risulterà nello Storico Ordini del cliente.",
+    "immagini": [
+      "data/images/image302.png",
+      "data/images/image303.png",
+      "data/images/image304.png"
+    ]
+  },
+  {
+    "titolo": "14.5 Reso cliente con vendita effettuata su Acuitas",
+    "contenuto": "Lo storico vendite del negozio registrato su Acuitas è stato importato all’interno dello strumento Lookup Tool (vedere capitolo 1.2). L’app Lookup Tool è uno strumento accessibile dal Tool Kit e permette di recuperare e consultare tutte le vendite effettuate su Acuitas negli ultimi tre anni.\n\nDopo aver effettuato l’accesso a Lookup Tool, in caso di richiesta di reso cliente con uno scontrino generato da Acuitas, la ricerca può avvenire attraverso uno dei seguenti campi. I campi che si consiglia di utilizzare sono Nome e Cognome del cliente o il numero dello scontrino fiscale.\n\nPer aprire i dettagli di una delle transazioni risultanti dalla ricerca è necessario cliccare sul numero della transazione.\n\nI primi dettagli mostrati sono relativi al negozio dove è stata effettuata la vendita, il numero di scontrino, la data della vendita e il nome ed il cognome del cliente.\n\nSpostandosi verso destra è possibile poi vedere altre informazioni della vendita quali:\n\nElenco prodotti venduti con relativi codici, descrizione dell’articolo, prezzo, eventuale sconto applicato e tasse\n\nValore totale della transazione dato dalla somma dei prezzi dei prodotti elencati. La colonna Total ripete il valore totale della transazione in ogni riga. In questo esempio quindi il valore totale della transazione è pari a 660€\n\nDettaglio dei metodi di pagamento utilizzati per questa vendita:\n\nTender Deposit: valore caparra\n\nTender CC: parte della vendita pagata in carta o bancomat\n\nTender Gift: parte della vendita pagata con gift card\n\nTender 1 Desc + Tender 1 Amt:parte della vendita pagata attraverso finanziamenti (Findomestic o PagoDIL) o Adaro (nella casella Desc viene riportato il nome del metodo di pagamento e nella casella Amt il valore)\n\nTender 2 Desc + Tender 2 Amt: parte della vendita pagata attraverso assicurazione (nella casella Desc viene riportato il nome dell’assicurazione e nella casella Amt il valore)\n\nNotes: parte della vendita pagata attraverso altri metodi di pagamento residuali (Satispay, Clicpay, buoni convenzioni)\n\nLa somma dei valori riportati in una riga in questa sezione è pari al totale della transazione. Tali valori sono arrotondati per eccesso o per difetto in quanto non vengono riportati numeri decimali. È quindi consigliato di fare affidamento allo scontrino cartaceo poiché riporta il valore esatto della vendita.\n\nAccedere a Xstore e selezionare Reso articolo.\n\nInserire le informazioni del cliente che procede al reso e selezionare Salva Modifiche.\n\nNella schermata successiva Rientro selezionare Sì\n\nSuccessivamente inserire le informazioni della vendita precedente e cliccare su Conferma. Il codice negozio da inserire è 10 + Numero SAP di negozio (es: per negozio A070 inserire 10070).\n\nNella schermata ‘Scontrino Originale’ cliccare su Nessuna informazione\n\nInserisco il codice articolo nella schermata di reso, eventualmente si può cambiare la quantità direttamente modificando la riga da Xstore.\n\nInfine, dopo aver selezionato l’UPC da scambiare, indicare il motivo generico dello scambio e poi specificarlo nella seconda schermata.\n\nInserire e ricostruire i dati dell’articolo da rendere recuperandoli dal Lookup Tool e per i prezzi dallo scontrino cartaceo. Questo processo è da svolgersi per tutti gli articoli dello scontrino da rendere, nel caso in cui si volessero rendere più articoli della transazione è possibile aggiungerli in seguito. Per procedere al pagamento seguire il capitolo 7.1.\n\nI documenti che verranno emessi e inviati al cliente sono:\n\n- Documento di una nuova vendita eventuale a seguito del reso\n\n- Documento di reso (nota di credito), che dovrà essere archiviato\n\nAl momento dell’inserimento di un reso non verificato da Acuitas su Ciao è importante sottolineare che l’iva dei prodotti da rendere sarà sempre di default al 22%\n\nPercìò nel caso si trattasse di un reso di prodotti con iva al 4%, come per esempio gli occhiali da vista, è necessario modificare l’importo dell’iva.\n\nQuesto processo è fondamentale per evitare di trasmettere prodotti con iva errata all’agenzia delle entrate.\n\nDi seguito vi proponiamo i passaggi da effettuare:\n\nUna volta inserito il prodotto da rendere, nella voce Imposta sarà presente l’iva al 22% di default inserita dal sistema. Per modificarla premere su Cambiare Articolo\n\nSuccessivamente premere Modifica IVA Vendita\n\nPremere poi su Modifica Tassazione DM e dare conferma al Pop up che compare\n\nScegliere per quale prodotto cambiare l’importo dell’iva\n\nUna volta selezionato alla voce Imposta la percentuale dell’iva sarà modificata\n\nL'importo dell'IVA verrà modificato AUTOMATICAMENTE, quindi è necessario prestare attenzione al valore della dicitura Imposta.\n\nNon comparirà nessun Popup che avverte che l'operazione è riuscita.",
+    "immagini": [
+      "data/images/image305.png",
+      "data/images/image306.png",
+      "data/images/image307.png",
+      "data/images/image308.png",
+      "data/images/image309.png",
+      "data/images/image310.png",
+      "data/images/image313.png",
+      "data/images/image314.png",
+      "data/images/image311.png",
+      "data/images/image312.png",
+      "data/images/image315.png",
+      "data/images/image316.png",
+      "data/images/image317.png",
+      "data/images/image318.png",
+      "data/images/image319.png",
+      "data/images/image320.png",
+      "data/images/image321.png",
+      "data/images/image322.png",
+      "data/images/image323.png",
+      "data/images/image324.png",
+      "data/images/image325.png",
+      "data/images/image326.png",
+      "data/images/image327.jpeg",
+      "data/images/image328.jpeg"
+    ]
+  },
+  {
+    "titolo": "14.6 Scambio con vendita effettuata su Acuitas",
+    "contenuto": "Il processo di scambio con vendita effettuata da Acuitas segue esattamente le stesse logiche del reso.  È necessario quindi eseguire tutti i passaggi del capitolo precedente fino allo step della selezione della Causale in cui selezionare Sostituzione ed in seguito Scambio selezionando poi il motivo specifico dello scambio. Terminare il processo come uno Scambio effettuato normalmente in Ciao,  seguendo le indicazioni che si trovano nel capitolo 14.8 (Scambio su Ciao!).\n\nI documenti che verranno emessi ed inviati al cliente sono:\n\n- Documento nuova vendita\n\n- Documento di scambio con la firma, che potrà non essere archiviato.",
+    "immagini": [
+      "data/images/image329.png",
+      "data/images/image330.png"
+    ]
+  },
+  {
+    "titolo": "14.7 Reso gestionale",
+    "contenuto": "Esistono tre scenari per i quali è possibile effettuare un Reso Gestionale:\n\nPer mancata richiesta di emissione di fattura oltre le 24h.\n\nPer mancata erogazione di una garanzia\n\nPer modificare WO pre-dispensing (Reso della Caparra)\n\nSolo per il primo store, selezionare Modifica WO come ragione di reso.\n\nPer mancata richiesta di emissione di fattura oltre le 24h: seguire i passaggi 1, 2, 3, 4 del Paragrafo 13.1.\n\nSelezionare la motivazione Modifica WO nel menù a tendina.\n\nProcedere come riportato nel Paragrafo 13.1 dal punto 7 al punto 10.\n\nDopodiché procedere effettuando una nuova vendita come riportato nel capitolo 5. Inserire nel campo ID vassoio il testo: GEST. Su LPA non occorrerà procedere con alcuna operazione. Richiedere l’emissione della fattura cliccando su Stampa Fattura o Nota Di Accredito su Xstore e procedere come riportato nel Paragrafo 6.2.\n\nAl termine dell’operazione di reso, il sistema dovrà erogare la seguente documentazione:\n\nReso fiscale (nota di credito)\n\nPratica di reso non fiscale in doppia copia, una che va fatta firmare al cliente e si tiene in negozio, l’altra che si consegna al cliente\n\nFattura emessa\n\nScontrino relativo alla nuova vendita\n\nPer mancata erogazione di una garanzia: seguire i passaggi 1, 2, 3, 4 del Paragrafo 13.7.\n\nSelezionare la motivazione Modifica WO nel menù a tendina.\n\nProcedere come riportato nel Paragrafo 13.7 dal punto 7 al punto 10.\n\nProcedere effettuando una nuova vendita come riportato nel capitolo 5.\n\nCliccare sul campo Garanzie posto all’interno della sezione Modulo d’Ordine e scegliere la garanzia desiderata.\n\nProcedere con una nuova vendita come riportato nel capitolo 5.\n\nSu LPA non occorrerà procedere con alcuna operazione.\n\nAl termine dell’operazione di reso, il sistema dovrà erogare la seguente documentazione:\n\nReso fiscale (nota di credito)\n\nPratica di reso non fiscale in doppia copia, una che va fatta firmare al cliente e si tiene in negozio, l’altra che si consegna al cliente\n\nGaranzia\n\nScontrino relativo alla nuova vendita",
+    "immagini": [
+      "data/images/image295.png",
+      "data/images/image331.png",
+      "data/images/image332.png",
+      "data/images/image333.png"
+    ]
+  },
+  {
+    "titolo": "14.8 Scambio su Ciao!",
+    "contenuto": "Tramite Ciao! È possibile effettuare scambi. È consigliabile utilizzare il PC di cassa, in quanto l’iPad non ha cassetto contanti.\n\nLa modalità Scambio si può utilizzare solo per i seguenti prodotti:\n\nSole non graduato\n\nAccessori\n\nLo scambio non è utilizzabile per prodotti in deposito.\n\nPer tutti gli altri tipi di scambio, come per i prodotti vista, procedere effettuando un reso e una nuova vendita, in quanto, con lo stesso non è possibile emettere la fattura.\n\nLe modalità per effettuare lo scambio sono due:\n\nAttraverso il Profilo Cliente, cliccare su Storico Ordini. Tra gli ordini effettuati, cercare il prodotto e cliccare su Scambio.\n\nDa iPad è possibile selezionare Cattura ID Scontrino (da ricerca su Customer Order), per catturare il barcode.\n\nIl sistema mostra all’interno dei Risultati Ricerca il cliente desiderato. Dalla sezione Storico Ordini del profilo cliente, cliccare su Scambio, oppure, è anche possibile spuntare la check-box dell’ordine e successivamente cliccare su Scambiare Ordini Selezionati.\n\nNella Richiesta Scambio:\n\nSelezionare nel primo campo Ragione Di Scambio la voce: Scambio\n\nSelezionare nel secondo campo Ragione Di Scambio: Una delle motivazioni presenti in elenco.\n\nCliccare Conferma Richiesta per procedere alla sostituzione.\n\nCompletare il flusso come se si stesse effettuando un nuovo ordine secondo le modalità viste nel capitolo 5.\n\nInserisco un nuovo codice articolo e Vai A Pagamento.\n\nIl testo in rosso è relativo agli articoli che stiamo sostituendo, il testo in blu a quello che stiamo acquistando. Se la differenza di pagamento è dovuta dal negozio può avvenire in Contanti (non presente su iPad) o tramite Bonifico Da Sede. Se invece è il cliente a dover pagare, può scegliere tra le diverse modalità previste.\n\nInserire un commento in Aggiungi Nota e cliccare Transazione Completata.\n\nScegliere un metodo di ricezione dello scontrino, il sistema erogherà:\n\nVendita fiscale\n\nReso fiscale (nota di credito)\n\nPratica di reso non fiscale: in doppia copia, una che va fatta firmare al cliente e si tiene in negozio, l’altra che si consegna al cliente\n\nIn caso di transazione pari a zero, il sistema restituisce solo gli scontrini non fiscali.",
+    "immagini": [
+      "data/images/image334.png",
+      "data/images/image337.png",
+      "data/images/image335.png",
+      "data/images/image336.png",
+      "data/images/image338.png",
+      "data/images/image339.png",
+      "data/images/image340.png"
+    ]
+  },
+  {
+    "titolo": "14.9 Modulo Remake a Sedico",
+    "contenuto": "All’interno della libreria di Store360, nella cartella Ciao! potrete trovare il nuovo Modulo Remake da utilizzare per rendere a Sedico le lenti (o CO) con “Difetto di Fabbricazione” o “Errore costruzione lente”.\n\nSi tratta di un PDF modificabile da compilare inserendo:\n\nCodice Sap del negozio – es. A144 (nel modulo è preceduto da una “S” non modificabile perché serve a Sedico per recuperare lo store in SAP)\n\nN. Ordine Ciao! (nuovo numero ordine che si genera se si effettua il reso in cassa post vendita oppure sempre lo stesso numero dell’ordine originario in caso di Remake pre-vendita effettuato attraverso LPA)\n\nTipo lavorazione – scegliere tra le tre opzioni dei 3 job type (CO,LO,CJ)\n\nCome da procedura attuale, è necessario SEMPRE COMPILARE E ALLEGARE IL QUESTO MODULO AL PACCO DI RESO, altrimenti non sarà possibile processare il reso a Sedico.\n\nQuesto è il modulo che troverete nella cartella Ciao! di Smarty (exStore360).",
+    "immagini": [
+      "data/images/image341.png"
+    ]
+  },
+  {
+    "titolo": "14.10 Remake pre-consegna ordine su LPA",
+    "contenuto": "Nel caso in cui si rilevasse una problematica con l’ordine in fase di ispezione (es: difetto di fabbricazione), e prima di procedere alla consegna dell’ordine, sarà necessario inserire un nuovo ordine Remake a sistema senza passare per il processo di scambio su Ciao!\n\nDopo aver effettuato il login su LPA ricercare l’ordine per il remake tramite il numero di ordine. Selezionare l’icona per il Remake sulla destra dell’ordine e indicare, con diversi livelli di dettaglio, il motivo per cui si richiede un remake (es: specifiche delle lenti non corrette).\n\nDopo aver indicato la causale per il remake nei diversi livelli di dettaglio, scegliere il Job Type per il remake dal menù a tendina e cliccare su Continua.",
+    "immagini": [
+      "data/images/image342.jpeg",
+      "data/images/image12.png",
+      "data/images/image343.jpeg"
+    ]
+  },
+  {
+    "titolo": "14.11 Remake post consegna",
+    "contenuto": "Le modalità per le quali è possibile effettuare delle richieste di Remake sono:\n\nPrima della consegna: Se durante la procedura di ispezione (vedere capitolo 0), ci si accorge che l’ordine arrivato dal laboratorio presenta dei difetti, si procede con una richiesta di remake tramite LPA (vedere capitolo 0).\n\nDopo la consegna: Se il cliente si accorge che l’articolo presenta difetti o anomalie, in tal caso, si procede avviando una pratica di reso e successivamente ad una nuova vendita.\n\nDal punto di vista della tracciabilità, una volta che si riceve l'occhiale in store il cliente riceve un’e-mail che l'occhiale è pronto per essere consegnato. Nel caso in cui dopo l’ispezione ci si accorga che l'occhiale necessita di un remake, è\n\nnecessario chiamare il cliente e avvisarlo.",
+    "immagini": []
+  },
+  {
+    "titolo": "15 Reporting",
+    "contenuto": "I documenti di Reporting possono essere trovati o su XStore o, per quelli generati da OneLRA sul ToolKit, selezionando l’icona Reporting",
+    "immagini": []
+  },
+  {
+    "titolo": "15.1 Report Fatturato",
+    "contenuto": "Accedere al Back Office in XStore e selezionare Report e poi Cruscotto.\n\nSeleziona Vendite del Giorno.\n\nÈ possibile visualizzare il report filtrando per data, scegliere come Opzione di visualizzazione “In base a reparto” e scegliere se si vuole vedere anche il grafico. Successivamente selezionare Genera Report.\n\nLe vendite sono rappresentate al netto dell’IVA.",
+    "immagini": [
+      "data/images/image344.png",
+      "data/images/image345.png",
+      "data/images/image346.png",
+      "data/images/image347.png",
+      "data/images/image348.png"
+    ]
+  },
+  {
+    "titolo": "15.2 Registro Corrispettivi",
+    "contenuto": "Questo report non è presente su XStore.",
+    "immagini": []
+  },
+  {
+    "titolo": "15.3 Riepilogo Giornaliero",
+    "contenuto": "Il riepilogo giornaliero viene stampato ogni sera con il Closure Report generato al momento della chiusura del Negozio. N.B. Nel caso in cui per qualche problema non fosse stato possibile produrre il report di Chiusura cassa in fase di chiusura, sarà possibile ristamparlo accedendo a Back office – Report – Report salvati. Qui troverete l’elenco dei Daily report prodotti con l’orario. Selezionando quello del giorno d’interesse e dell’orario di chiusura, troverete quello corretto e lo potrete ristampare",
+    "immagini": []
+  },
+  {
+    "titolo": "15.4 Scontrino Cassa e Giornale elettronico",
+    "contenuto": "Il riepilogo degli scontrini cassa può essere scaricato da XStore, selezionando Giornale dal menù principale e poi Report Giornale.\n\nIl Giornale elettronico è uno strumento che vi permetterà di vedere tutte le operazioni eseguite su Ciao!, vi sono diversi criteri per filtrare i dati in modo da cercare la transazione che serve.\n\nMolto utile è anche la possibilità di visualizzare tutti i dettagli della transazione (scontrino, modalità di pagamento…), e di conoscere anche lo stato in cui si è bloccata la transazione, o se è stata eliminata.\n\nSempre all’interno del giornale si ha anche la possibilità di poter ristampare la ricevuta, sia via mail che tramite stampa.\n\nInoltre, è possibile anche trovare la fattura i caso fosse stata creata e stamparla, ma anche crearla da zero, in caso non si fosse ancora effettuata, naturalmente sempre all’interno della stessa giornata.",
+    "immagini": [
+      "data/images/image349.png"
+    ]
+  },
+  {
+    "titolo": "15.5 TX Sconto Discrezionale",
+    "contenuto": "È possibile accedere al report Tx Sconto Discrezionale accedendo a XStore e selezionando Report e poi Sconto.\n\nI report WO Aperti, Work Order, Work Order Annullati, Percorso cliente, Dettaglio clienti vengono generati da OneLRA e sono accessibili dal ToolKit nell’icona Reporting.",
+    "immagini": [
+      "data/images/image350.png",
+      "data/images/image351.png"
+    ]
+  },
+  {
+    "titolo": "15.6 Reporting cassaforte",
+    "contenuto": "Per tenere traccia di tutte le attività di spostamento tra le casse durante la giornata è possibile andare nella sezione Giornale, poi Report giornale.\n\nQui si ha la possibilità di filtrare la transazione specifica, per vedere quella relativa alla cassaforte bisogna selezionare: Controlla gara\n\nUna volta premuto, si creerà la pagina di giornale con tutte le attività della giornata.",
+    "immagini": [
+      "data/images/image352.png",
+      "data/images/image353.png",
+      "data/images/image354.png"
+    ]
+  },
+  {
+    "titolo": "16 Elenco Ordini: Attivo, Archivio e Caparra",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "16.1 Attivo",
+    "contenuto": "Nella lista degli ordini attivi sono presenti gli ordini che sono stati Salvati o Sospesi durante il flusso di creazione dell’ordine. Gli ordini rimangono nell’elenco degli ordini attivi per tre giorni per poi passare in Archivio.\n\nA destra della schermata sono presenti i seguenti pulsanti:\n\nModifica: è possibile modificare l’ordine partendo dalla sezione di flusso d’ordine in cui era stato sospeso o salvato\n\nDettagli: è possibile visualizzare tutti i dettagli dell’ordine come ID Ordine, prescrizione e informazioni sugli item selezionati\n\nCaparra: è possibile prendere caparra\n\nNella colonna Avanzamento Ordine è indicata la sezione del flusso d’ordine nella quale l’ordine è stato salvato o sospeso. La voce Completato appare invece quando il flusso dell’ordine è completamente concluso con presa caparra o pagamento.\n\nNella colonna Stato è presente lo status dell’ordine. Gli stati che un ordine può assumere sono:\n\nIn Corso: quando il flusso di creazione ordine non è stato ancora ultimato\n\nPronto: quando il flusso di creazione dell’ordine si è concluso ed è stata presa caparra o è stato effettuato il pagamento\n\nSelezionando un ordine è possibile:\n\nCancellare l’ordine selezionare per cancellare l’ordine\n\nSposta all’Archivio per spostare l’ordine nell’Archivio\n\nAnteprima Prezzo Ordine Selezionato per vedere dettagli e il prezzo dell’ordine\n\nÈ possibile anche selezionare più ordini insieme e svolgere le azioni precedenti anche con più ordini.",
+    "immagini": [
+      "data/images/image355.png",
+      "data/images/image356.png"
+    ]
+  },
+  {
+    "titolo": "16.2 Archivio",
+    "contenuto": "Nella lista degli ordini in Archivio sono presenti gli ordini che sono stati Salvati in Archivio o quelli che, dopo tre giorni, sono passati dalla lista degli ordini attivi all’archivio. Gli ordini rimangono nell’archivio per 27 giorni.\n\nLa struttura della tabella è uguale a quella della lista degli ordini attivi.\n\nIn aggiunta alla lista degli ordini attivi, selezionando un ordine è possibile:\n\nCancellare l’ordine selezionare per cancellare l’ordine\n\nSposta a Attivo per spostare l’ordine nell’Attivo\n\nAnteprima Prezzo Ordine Selezionato per vedere dettagli e il prezzo dell’ordine\n\nÈ possibile anche selezionare più ordini insieme e svolgere le azioni precedenti anche con più ordini.",
+    "immagini": [
+      "data/images/image357.png"
+    ]
+  },
+  {
+    "titolo": "16.3 Caparra",
+    "contenuto": "Nella lista Caparra sono presenti gli ordini per i quali è stata presa caparra. A destra della schermata sono presenti i seguenti pulsanti:\n\nCaparra per poter prendere una seconda caparra e vedere il valore della caparra presa precedentemente\n\nConsegna per consegnare il prodotto al cliente e completare il pagamento su Xstore\n\nConverti per incassare la caparra se dopo due mesi dal versamento della stessa il cliente non ha più saldato l’ordine. Prima di procedere contattare il cliente (telefono, e-mail, etc)\n\nTorna per rendere la caparra",
+    "immagini": [
+      "data/images/image214.png"
+    ]
+  },
+  {
+    "titolo": "17 Operative",
+    "contenuto": "",
+    "immagini": []
+  },
+  {
+    "titolo": "17.1 Ristampare una fattura",
+    "contenuto": "Nel caso in cui ci si dimenticasse di emettere la fattura è possibile recuperarla solo nella stessa giornata tramite la funzione Ristampa fattura. Gli step da seguire sono:\n\nAccedere al Back-office\n\nCliccare su Giornale e su Giornale Elettronico\n\nNella schermata di Ricerca Transazione è possibile indirizzare la ricerca. È comunque possibile ricercare per nome e cognome del cliente, tipo di transazione o modalità di pagamento.\n\nConferma per visualizzare tutte le vendite della giornata in corso.\n\nSelezionare “Vendita Retail” per vedere tutte le operazioni di venditaDi default viene selezionato il numero del banchetto da cui si accede. Può essere modificato. Numero di transazione Data Nome e Cognome del cliente Selezionare “Vendita Retail” per vedere tutte le operazioni di venditaDi default viene selezionato il numero del banchetto da cui si accede. Può essere modificato. Numero di transazione Data Nome e Cognome del cliente\n\nSelezionare “Vendita Retail” per vedere tutte le operazioni di vendita\n\nDi default viene selezionato il numero del banchetto da cui si accede. Può essere modificato.\n\nNumero di transazione\n\nData\n\nNome e Cognome del cliente\n\nSelezionare “Vendita Retail” per vedere tutte le operazioni di vendita\n\nDi default viene selezionato il numero del banchetto da cui si accede. Può essere modificato.\n\nNumero di transazione\n\nData\n\nNome e Cognome del cliente\n\nLe vendite della giornata in corso sono rappresentate in ordine alfabetico.\n\nNella prima colonna per ogni vendita è riportato il tipo di transazione, il numero di cassa dalla quale è stata fatta, il nome del cliente e il totale della transazione.\n\nNella seconda colonna è riportata la data.\n\nNella terza colonna è riportata l’ora di creazione della vendita, il numero di scontrino, se è stata emessa la fattura e lo stato della vendita che può assumere tre modalità diverse:\n\nCompleto: se correttamente ultimato\n\nCancellato: se è stato portato in cassa ma non più ultimato\n\nCancellato Orphaned: se la vendita non è andata a buon fine per un problema del sistema\n\nLe fatture ristampabili sono in stato COMPLETO. Selezionare la vendita per cui si desidera ristampare la fattura. Cliccare su Visualizza Dettagli.\n\nCliccare su Funzioni Fattura e successivamente su Ristampa/riemetti fattura. In questa fase è anche possibile ristampare lo scontrino omaggio o ristampare la ricevuta.\n\nCliccare su Funzioni Fattura e successivamente su Ristampa/riemetti fattura. In questa fase è anche possibile ristampare lo scontrino omaggio o ristampare la ricevuta.\n\nSelezionare Si per completare il processo ed indicare il metodo di ricezione preferito (stampa/e-mail).\n\nIn alternativa, è anche possibile selezionare Opzioni Fattura dal menù principale di XStore e selezionare Ricerca Fattura.\n\nRicercare la fattura di interesse filtrando per Cognome, Nome, Numero di fattura o data e confermare per vedere l’elenco degli ordini per cui è stata emessa una fattura. Procedere come descritto sopra per ristampare la fattura.",
+    "immagini": [
+      "data/images/image358.png",
+      "data/images/image359.emf",
+      "data/images/image360.emf",
+      "data/images/image361.png",
+      "data/images/image360.png",
+      "data/images/image362.png",
+      "data/images/image365.png",
+      "data/images/image363.png",
+      "data/images/image364.png",
+      "data/images/image366.png",
+      "data/images/image367.png"
+    ]
+  },
+  {
+    "titolo": "17.2 Inserimento manuale di una vendita da Customer Order",
+    "contenuto": "Per inserire manualmente una vendita, da Customer Order premere sulla X in basso a sinistra per accedere a Xstore.\n\nCliccare su Modalità di cassa.\n\nSelezionare Ricevuta manuale. Inserire il numero di ricevuta manuale (es: riferimento della vendita fatta tramite la stampante fiscale in un momento precedente) e data (es: può essere del giorno prima in cui vi sono stati problemi di connessione in store).\n\nCliccare su Lista ordini clienti per tornare su Customer Order e procedere alla vendita degli articoli che sono stati inseriti manualmente. Xstore in questo caso non produce alcuno scontrino.",
+    "immagini": [
+      "data/images/image368.png",
+      "data/images/image371.png",
+      "data/images/image369.png",
+      "data/images/image373.png",
+      "data/images/image370.png",
+      "data/images/image372.png",
+      "data/images/image376.png"
+    ]
+  },
+  {
+    "titolo": "17.3 Emissione di una fattura esente IVA",
+    "contenuto": "Per registrare una fattura esente IVA cliccare su Modalità di cassa.\n\nCliccare su Modifica IVA transazione.\n\nCliccare su Modifica IVA Transazione.\n\nCliccare su Transazione esente IVA.\n\nIndicare il motivo dell’esenzione e inserire un commento (per cliente per i quali è stata già emessa una fattura esente iva in passato è possibile selezionare il motivo già indicato precedentemente, come mostrato sulla destra).\n\nInserire il numero di certificato che prova l’esenzione e il luogo dove è stato rilasciato il certificato. Compilare le informazioni obbligatorie compreso il codice imposta (per il codice imposta inserire sette volte lo 0).\n\nSpecificare il metodo di pagamento e registrare l’importo ricevuto.\n\nSi può verificare la corretta esenzione grazie alla “E” presente sulla destra della transazione.",
+    "immagini": [
+      "data/images/image374.png",
+      "data/images/image375.png",
+      "data/images/image379.png",
+      "data/images/image377.png",
+      "data/images/image381.png",
+      "data/images/image378.png",
+      "data/images/image380.png",
+      "data/images/image382.png",
+      "data/images/image383.png",
+      "data/images/image384.png",
+      "data/images/image385.png"
+    ]
+  },
+  {
+    "titolo": "17.4 Prelievi e Versamenti (Petty cash)",
+    "contenuto": "Nel caso in cui si prelevasse contante dalla cassa (es: per stampa fotocopie) è necessario registrare il movimento.\n\nPer farlo, cliccare su Opzioni cassetto.\n\nAutenticarsi nuovamente.\n\nSelezionare l’opzione d’interesse: versamenti o prelievi.\n\nPer il prelievo viene richiesta la motivazione del prelievo. Indicarla e cliccare su Ok. Per il versamento è richiesto il codice a barre della ricevuta.\n\nIn entrambi i casi viene richiesto l’inserimento di un commento e dell’importo di versamento o prelievo.\n\nInserire l’importo per concludere il processo di versamento o prelievo.\n\nUna volta completato il processo si produce uno scontrino non fiscale che va mantenuto, firmato e allegato alla ricevuta dello scontrino della spesa effettuata.",
+    "immagini": [
+      "data/images/image386.png",
+      "data/images/image387.png",
+      "data/images/image388.png",
+      "data/images/image391.png",
+      "data/images/image389.png",
+      "data/images/image390.png",
+      "data/images/image392.png",
+      "data/images/image393.png",
+      "data/images/image394.png"
+    ]
+  },
+  {
+    "titolo": "17.5 VR Omaggio",
+    "contenuto": "Gli omaggi possono essere di due tipi:\n\nOmaggi riservati agli operatori sanitari, cioè specifici per la classe medica\n\nOmaggi per altre tipologie di VR Omaggio\n\nLa procedura da effettuare per gestire le VR Omaggio, cioè gli omaggi totali che si effettuano in negozio, è la seguente:\n\nSelezionare il prodotto da omaggiare, procedendo con il flusso di creazione WO in Ciao! Optical o di Vendita rapida nel caso di occhiali da sole ed accessori\n\nSuccessivamente premere su Procedi al pagamento, una volta arrivati su Xstore, premere Aggiungere sconto e poi selezionare Aggiungere sconto\n\nInserire il codice dell’offerta a seconda che sia un omaggio per la classe medica o di altra tipologia:\n\nOMAGGI A CLASSE MEDICA:\n\nNegozi diretti: il codice sconto è 16153\n\nFranchising: il codice sconto è 16154\n\nALTRI OMAGGI:\n\nNegozi diretti e Franchising: il codice sconto è 888999\n\nUna volta inserito il codice corrispondente il totale dell’acquisto sarà SEMPRE A ZERO. Premere su Somma dovuta e completare la transazione",
+    "immagini": [
+      "data/images/image395.png",
+      "data/images/image396.png",
+      "data/images/image397.png",
+      "data/images/image398.png"
+    ]
+  },
+  {
+    "titolo": "17.5 VR a pagamento",
+    "contenuto": "Il flusso per l’emissione della fattura alle aziende convenzionate, le cosiddette VR.\n\nPunto fondamentale è sempre compilare l'anagrafica del cliente in modo corretto: inserire non solo i dati riferiti al cliente stesso ma anche i dati dell'azienda. Per non incorrere in errori è importante inserire correttamente tutti i dati relativi all’azienda come: denominazione, indirizzo, p.iva, codice fiscale, codice destinatario, pec, referente a cui inviare le mail.\n\nSi possono trovare nella parte passa della schermata dell'anagrafica cliente\n\nProcedere con il flusso di vendita normale (vedere capitolo 5) e prima di andare alla selezione del metodo di pagamento, richiedere la fattura con DOPPIA INTESTAZIONE.\n\nAl momento del pagamento selezionare come metodo di pagamento il tasto PAGAMENTO AZIENDA CONVENZIONATA.\n\nPer alcune aziende come Aero Service, Nuovo Pignone Srl, Biffi, Emerson, Curia Global che richiedono l'inserimento del PO, è necessario inserire il numero del Po nel campo numero pratica dopo aver selezionato il tasto PAGAMENTO AZIENDA CONVENZIONATA.\n\nNel caso di nuovi accordi stipulati, la procedura da seguire è aprire un GLPI nella categoria Fatturazione allegando la convenzione firmata e tutti i dati societari.\n\nPer quello che concerne invece le VR ai laboratori il flusso è stoppato, cioè non devono più essere emesse.\n\nPer le rotture/smarrimento ove prima veniva emessa VR a pagamento, la procedura adesso è segnalarle al Team Store Operations Execution, in modo da tenere monitorata la situazione.\n\nInfine, NON vanno emesse le VR dedicate alla Pubblica Amministrazione (o aziende partecipate), aziende che hanno lo Split payment, come per esempio Versalis.\n\nNote importanti:\n\nPer le prime emissione contattare all’indirizzo fatturazioneelettronica_sv@luxottica.com in modo da verificare compilazione scheda anagrafica/procedura di emissione.\n\nNel caso di nuovi accordi, aprire un GLPI a fatturazione allegando la convenzione firmata e tutti i dati societari.\n\nI documenti devono essere inviati per e-mail e copia cartacea consegnata al dipendente.\n\nLo scontrino andrà allegato alla fattura e fattura + scontrino devono essere inviati per e-mail, e una copia cartacea andrà consegnata al cliente.\n\nIn caso di dubbi contattare fatturazioneelettronica_sv@luxottica.com",
+    "immagini": [
+      "data/images/image399.png",
+      "data/images/image400.png",
+      "data/images/image401.png"
+    ]
+  },
+  {
+    "titolo": "17.6 Cassaforte: Deposito bancario, Deposito contante in cassaforte, Manutenzione cassetto",
+    "contenuto": "La sezione per registrare i versamenti effettuati in banca è raggiungibile da Backoffice – Modalità di cassetto – Manutenzione cassaforte. Qui si trova la sezione Deposito bancario.\n\nSelezionando questa voce è possibile inserire il valore del versamento che si sta per effettuare.\n\nQuesta funzione serve anche per visualizzare il contante presente in cassaforte:\n\nVersamento in banca: si inserisce il totale che si vuole versare per ogni denominazione e si clicca su Sommario, il sistema mostra quanto si è voluto versare, confrontato con quanto il sistema ritiene sia presente in cassaforte.  Per procedere al versamento è sufficiente cliccare su Terminato conteggio. Il sistema chiederà una conferma e se la somma che si vuole versare è superiore a quanto presente a sistema in cassaforte, il sistema bloccherà l’operazione. Altrimenti l’operazione sarà completata e verranno stampati due scontrini dalla stampante scontrini.\n\nVerifica del contenuto della cassaforte: Si segue la stessa procedura, ma non è necessario inserire alcun valore. Andando su Sommario, il sistema mostrerà il contenuto della cassaforte alla voce Somma Sistema.\n\nDeposito contante in cassaforte\n\nIl percorso è il medesimo, da Backoffice – Modalità di cassetto – Manutenzione cassaforte, scelgo l’opzione Deposito contante in cassaforte. Inserisco il totale di denaro che si vuole aggiungere alla cassaforte extra sistema, cioè non proveniente dalle postazioni di vendita (per esempio il denaro presente in cassaforte antecedente alla messa in opera di Ciao!), premo invio e l’azione è completata.\n\nManutenzione cassetto\n\nPer spostare contanti dalla cassaforte al cassetto entrare in Back office – Modalità di cassetto – Manutenzione cassetto – Trasferimento contante\n\nInserire la cifra che si vuole spostare dalla cassaforte al cassetto e premere Invio\n\nCon Ciao! Optical è possibile effettuare versamenti in cassaforte anche durante la giornata quando lo store è aperto. Per spostare contanti dal cassetto alla cassaforte è necessario accedere al Back Office – Modalità Cassetto – Manutenzione Cassetto – Deposito di mezzo.\n\nInserire la cifra che si vuole spostare nella cassaforte al cassetto e premere Invio.",
+    "immagini": [
+      "data/images/image402.png",
+      "data/images/image403.png",
+      "data/images/image404.png",
+      "data/images/image405.png",
+      "data/images/image406.png",
+      "data/images/image407.png",
+      "data/images/image408.jpeg",
+      "data/images/image409.jpeg",
+      "data/images/image410.jpeg",
+      "data/images/image411.jpeg"
+    ]
+  },
+  {
+    "titolo": "17.7 Fattura cliente estero",
+    "contenuto": "Eseguire la normale procedura per l’emissione della fattura (vedere capitolo 7.2). Nel caso di emissione fattura per cliente estero:\n\nRiportare sempre il codice destinatario con 7 zeri\n\nInserire partita IVA con 7 zeri\n\nInserire sempre l’indirizzo estero corretto con il paese di origine in anagrafica. Non vanno inseriti indirizzi fittizi.\n\nInserire come CAP 5 zero.",
+    "immagini": [
+      "data/images/image412.png"
+    ]
+  },
+  {
+    "titolo": "18 Tag printing",
+    "contenuto": "Potete trovare l’applicazione Tag printing nel Desktop del PC di cassa acanto alle icone di Ciao! e del Toolkit.\n\nUna volta entrati all’interno dell’applicazione, la schermata che vi appare è quella in figura.\n\nLe opzioni tra cui scegliere sono due:\n\nRegular Tags\n\nMarkdown/Seasonal Tags\n\nL’opzione Regular Tags viene utilizzata in due casistiche:\n\nPrint Single Tag nel caso in cui si dovesse sostituire una singola etichetta quando questa è danneggiata o staccata dalla montatura. È necessario inserire l’UPC dell’etichetta che si vuole stampare e il risultato sarà la stampa di un solo tag.\n\nPer recuperare un UPC per il quale si vuole stampare l’etichetta, magari perché danneggiata, sarà sufficiente effettuare la ricerca su MIM premendo sul tasto Ricerca codice UPC, come riportato in figura.\n\nSerach Multiple Tags nel caso in cui si abbia la necessità di stampare più etichette di UPC differenti (per esempio Price increase). Per ottenere le etichette si può:\n\nInserire una lista di UPC all’interno della sezione corrispondente\n\nCercare per Merch Cat, ovvero il codice assegnato a ciascun brand (vedi tabella sotto), in modo da avere l’elenco completo di tutti gli Upc presenti in Stock per quel determinato brand.\n\nIn entrambe le casistiche cliccando Search il sistema vi riporterà l’elenco degli UPC per i quali stampare le etichette con relativo Stock.\n\nÈ possibile modificare la quantità di etichette da stampare inserendo il numero corretto nella colonna Quantity.\n\nPer stampare le etichette è possibile scegliere due modalità:\n\nPrint all per stampare tutte le etichette delgi UPC in elenco\n\nPrint from Start UPC per stampare le etichette a partire dall’UPC selezionato\n\nL’opzione di Markdown/Seasonal Tags è da utilizzare nel caso di Saldi, o sconti stagionali (per esempio Saldi estivi e invernali), ci sono tre opzioni:\n\nSearch All UPCs with Stock on Hand per stampare le etichette di tutti gli UPC soggetti a sconto a partire da una data specifica. È quindi necessario inserire nella barra di Effective data la data a partire dalla quale inizieranno gli sconti.\n\nSearch Individual UPCs with Stock on Hand in cui è possibile copiare ed incollare l’elenco di specifici UPC soggetti a cambio prezzi a partire dalla data indicata nella sezione Effective data.\n\nSearch All UPCs by MCH with Stock on Hand per ottenere tutti gli UPC della Merch Cat inserita, ovvero il codice assegnato a ciascun brand (vedi tabella sotto). Anche in questo caso è necessario inserire la data a partire dalla quale ci sarà il cambio prezzi nella sezione Effective data.\n\nUna volta premuto Search il sistema vi mostrerà la lista degli UPC disponibili come nella sezione descritta in precedenza.\n\nTabella riassuntiva delle Merch cat di ciascun brand:",
+    "immagini": [
+      "data/images/image413.png",
+      "data/images/image414.png",
+      "data/images/image415.png",
+      "data/images/image416.png",
+      "data/images/image417.png",
+      "data/images/image418.png",
+      "data/images/image419.png"
+    ]
+  }
+]

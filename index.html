@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manuale operativo Ciao! Optical</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="brand-left">
+    <img src="images/logo-dxc.png" alt="Logo DXC"/>
+  </div>
+  <div class="brand-right">
+    <span class="brand-text">EssilorLuxottica</span>
+  </div>
+
+  <div class="page-top-spacer"></div>
+
+  <header>
+    <div class="hero">
+      <h1>Manuale operativo Ciao! Optical</h1>
+      <p>Guida dinamica con ricerca, schede accordion e contenuti caricati da JSON.</p>
+      <div class="search-box">
+        <input id="search" type="search" placeholder="Cerca una procedura..." oninput="search()" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+   
+
+    <section id="manuale" class="manuale">
+      <div class="loading">Caricamento contenuti...</div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dynamic web app generata da Manuale operativo Ciao! Optical.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightbox-close">×</button>
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+  </div>
+</body>
+</html>
